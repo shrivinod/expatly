@@ -213,18 +213,26 @@ button:focus:not(:focus-visible) {
 }
 
 .whatsapp-right-part a {
-    background: #e62e2d;
+        background: #e62e2d;
     padding: 10px 25px 10px 25px;
     border-radius: 200px;
     font-size: 20px;
     color: #fff;
     font-weight: 700;
     margin-top: 15px;
-    float: left;
+    float: none;
+   
 }
-
+.whatsapp-right-part p {
+    font-size: 15px;
+    color: #200E32;
+    line-height: 27px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
 .whatsapp-right-part a img {
     margin-right: 15px;
+    width: 25px;
 }
 
 .applying-row .applying-option p {
