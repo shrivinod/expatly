@@ -536,15 +536,52 @@ button:focus:not(:focus-visible) {
     font-weight: 400;
 }
 
-.footer-logo{
-	width:70%;
-}
 
 
 .footer-listing-col {
-    padding-bottom: 0px;
+        padding-bottom: 0px;
     margin-bottom: 0px !important;
+    width: 50%;
+	
 }
+.footer-logo-col {
+    padding-right: 30px;
+    width: 50%;
+}
+
+.footer-logo {
+    width: 100%;
+}
+.footer-logo-ul li {
+    display: inline-block;
+    margin-top: 10px;
+}
+.footer-logo-ul li a {
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    padding: 3px 2px;
+    border-radius: 100%;
+    /* width: 100%; */
+    text-align: center;
+    font-size: 17px;
+}
+
+.footer-barcode p {
+    color: #FFf;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.footer .container{
+	padding-bottom:0px !important;
+}
+
+
+
+
+
 
 
 
