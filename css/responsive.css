@@ -1,591 +1,1144 @@
-
-
-
-@charset "utf-8";
-
-/*#############################################
-       Media Querys
-##############################################*/
-
-
-
-
-
-/****===========================================================================
-         Min-width:1281px and Max-widht:1366px Media Query
-==============================================================================**/
-
-@media (min-width:1281px) and (max-width:1366px) {}
-
-
-/****===========================================================================
-            Min-width:1201px and Max-widht:1280px Media Query
-==============================================================================**/
-
-@media (min-width: 1201px) and (max-width: 1280px) {}
-
-
-/****===========================================================================
-            Min-width:1024px and Max-widht:1200px Media Query
-==============================================================================**/
-
-@media (min-width: 1024px) and (max-width: 1200px) {}
-	
-
-
-/****===========================================================================
-          Min-width:768px and Max-widht:1023px Media Query
-==============================================================================**/
-
-@media (min-width: 768px) and (max-width: 1023px) {}
-
-
-/****===========================================================================
-           Max-widht:767px Media Query
-==============================================================================**/
-
-@media (max-width: 767px) {}
-
-
-/****===========================================================================
-      Min-width:320px and Max-widht:479px Media Query
-==============================================================================**/
-
-@media (min-width: 320px) and (max-width: 479px) {
-
-
-
-.footer-menu ul li a {
-    color: #000;
-    text-decoration: none;
-    margin: 0px 15px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
+ @charset "utf-8";
+/*############################################# Media Querys ##############################################*/
+/****=========================================================================== Min-width:1281px and Max-widht:1366px Media Query ==============================================================================**/
+ @media (min-width:1281px) and (max-width:1366px) {
 }
-
-.navbar-brand img {
-    width: 150px;
+/****=========================================================================== Min-width:1201px and Max-widht:1280px Media Query ==============================================================================**/
+ @media (min-width: 1201px) and (max-width: 1280px) {
 }
-.whatsapp-left-part img {
-    width: 75%;
+/****=========================================================================== Min-width:1024px and Max-widht:1200px Media Query ==============================================================================**/
+ @media (min-width: 1024px) and (max-width: 1200px) {
+     .navbar-nav a {
+         font-style: normal;
+         font-weight: 600;
+         font-size: 13px;
+         line-height: 22px;
+         display: flex;
+         align-items: center;
+         text-align: center;
+         letter-spacing: 0.03em;
+         text-transform: uppercase;
+         color: #200E32;
+    }
+     .navbar-brand img {
+         width: 150px;
+    }
+     .navbar-brand {
+         padding-right: 0px;
+    }
+     .right-top-header .login-header {
+         text-align: center;
+        /* padding: 0px 14px;
+         */
+         width: 100%;
+         height: 30px;
+         border-radius: 285px;
+         width: 89px;
+         text-align: center;
+         margin: 0px;
+         display: flow-root;
+         margin-right: 15px;
+         line-height: 15px;
+    }
+     .banner-barcode {
+         width: 115px;
+         display: inline-block;
+    }
+     .scaner-part {
+         text-align: center;
+         margin-top: 60px;
+    }
+     .whatsapp-right-part h2 {
+         color: #000;
+         font-weight: 800;
+         font-size: 30px;
+         line-height: 40px;
+    }
+     .post-your-vacancy-section .post-vacancy-wraper .left {
+         text-align: center;
+         padding: 110px 0px 80px 0px;
+    }
+     .recruitment-listing ul li i {
+         margin-right: 15px;
+         font-size: 20px;
+         font-weight: 100;
+         vertical-align: middle;
+    }
+     .recruitment-listing ul {
+         list-style: none;
+         background: #5340ff;
+         padding: 50px 25px;
+         border-radius: 10px;
+         margin-top: 60px;
+    }
+     .recruitment-left-heading a {
+         background: #e62e2d;
+         color: #fff;
+         border-radius: 200px;
+         padding: 10px 35px;
+         border: 1px solid #e62e2d;
+         text-decoration: none;
+         transition: 0.3s;
+         float: left;
+    }
+     .recruitment-left-heading h3 {
+         color: #000;
+         font-size: 28px;
+         font-weight: 800;
+         text-align: left;
+         margin-bottom: 15px;
+    }
+     .recruitment-section {
+         height: auto;
+         float: left;
+         width: 100%;
+         background: rgba(79, 82, 255, 0.06);
+         opacity: 0.93;
+         background-image: url(../img/banner1.png);
+         background-repeat: round;
+         margin-top: 110px;
+         padding-bottom: 50px;
+    }
+     .trading-list ul li {
+         display: inline-block;
+         margin: 0px 12px 0px 0px;
+    }
+     .trading-list ul li a {
+         text-decoration: none;
+         border: 1px solid #5340ff;
+         padding: 2px 7px;
+         color: #000;
+         font-size: 13px;
+         font-weight: 600;
+    }
+     .filter-band ul li {
+         margin: 0px 0px;
+         padding: 8px 5px;
+    }
+     .filter-band ul li {
+         margin: 0px 0px;
+         padding: 8px 5px !important;
+    }
+     .trending-community-section ul .cu-arrow {
+         width: 90px;
+    }
+     .trending-community-section ul .cu-arrow img {
+         width: 100%;
+    }
+     .trending-community-section ul li a img {
+         width: 100%;
+    }
+     .trending-community-section ul li {
+         display: inline-block;
+         width: 24%;
+         transition: transform .4s;
+    }
+     .instructor-section ul li {
+         width:19%;
+    }
+     .instructor-section ul .cu-arrow {
+         width: 175px;
+         position: absolute;
+         bottom: -45px;
+        /* left: 136px;
+         */
+         margin-left: -90px;
+    }
+     .footer-menu ul li a {
+         color: #000;
+         text-decoration: none;
+         margin: 0px 20px;
+         font-size: 15px;
+         font-weight: 400;
+         line-height: 21px;
+    }
+     .footer-menu ul {
+         list-style: none;
+         margin: 0px;
+         padding: 0px;
+    }
 }
-
-.footer-menu ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0;
+/****=========================================================================== Min-width:768px and Max-widht:1023px Media Query ==============================================================================**/
+ @media (min-width: 768px) and (max-width: 1023px) {
+     .scaner-part {
+         text-align: center;
+         margin-top: 90px;
+    }
+     .banner-barcode {
+         width: 115px;
+         display: inline-block;
+    }
+     .banner-section {
+         height: 375px;
+         float: left;
+         width: 100%;
+         background: rgba(79, 82, 255, 0.06);
+         opacity: 0.93;
+         background-image: url(../img/banner1.png);
+         background-repeat: round;
+    }
+     .scan-apply-arrive-part ul li a {
+         border: 2px solid #e62e2d;
+         padding: 10px 35px;
+         border-radius: 100px;
+         background: #fff;
+         color: #200E32;
+         font-size: 17px;
+         font-weight: 700;
+         letter-spacing: 0.03em;
+         text-decoration: none;
+         transition: 0.3s;
+    }
+     .scan-apply-arrive-part ul .arrow {
+         width: 70px;
+         height: 2px;
+         background: #e62e2d;
+        /* position: absolute;
+         */
+        /* z-index: 9999;
+         */
+        /* position: absolute;
+         */
+         position: relative;
+         top: 14px;
+         margin: 0px -5px;
+    }
+     .scan-apply-arrive-part ul {
+         list-style: none;
+         padding: 0px;
+    }
+     .navbar-light .navbar-nav{
+         display: inline-block;
+         width: 100%;
+    }
+     .navbar-light .navbar-nav a {
+         font-weight: 500;
+         font-size: 15px;
+         line-height: 22px;
+         display: flex;
+         align-items: center;
+         text-align: center;
+         letter-spacing: 0.03em;
+         text-transform: uppercase;
+         color: #200E32;
+         float: left;
+         margin-right: 20px;
+    }
+     .navbar-light button:focus:not(:focus-visible) {
+         outline: 0;
+         box-shadow: 0px 0px;
+    }
+     .right-top-header .login-header {
+         text-align: center;
+        /* padding: 0px 14px;
+         */
+         width: 100%;
+         height: 40px;
+         border-radius: 285px;
+         width: 20%;
+         text-align: center;
+         margin: 0px;
+         display: flow-root;
+         margin-right: 15px;
+         float: left !important;
+         display: grid !important;
+    }
+     .right-top-header .register-header {
+         border: 1px solid #FE1D26;
+         background: #FE1D26;
+         color: #FFF !important;
+         border-radius: 285px;
+         padding: 8px 30px;
+         width: 20%;
+         display: inline-grid;
+    }
+     .scan-apply-arrive-part p {
+         font-weight: 500;
+         font-size: 17px;
+         color: #FE1D26;
+         margin-top: 30px;
+        /* text-align: center;
+         */
+        /* display: inline-block;
+         */
+        /* margin: 0 auto;
+         */
+         width: 100%;
+    }
+     .navbar-brand img {
+         width: 170px;
+    }
+     .whatsapp-left-part img {
+         width: 100%;
+    }
+     .whatsapp-section {
+         float: left;
+         width: 100%;
+         margin-top: 55px;
+    }
+     .whatsapp-right-part h2 {
+         color: #000;
+         font-weight: 800;
+         font-size: 26px;
+         line-height: normal;
+    }
+     .whatsapp-right-part p {
+         font-size: 16px;
+         color: #200E32;
+         line-height: 27px;
+         font-weight: 500;
+    }
+     .applying-row {
+         margin: 50px 0px 0px 0px;
+    }
+     .applying-row .applying-option {
+         background: #FFFFFF;
+         border: 1px solid #F0F0F0;
+         box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 10%);
+         border-radius: 19px;
+         padding: 20px;
+         margin-bottom: 35px;
+    }
+     .applying-row .applying-option p {
+         font-size: 17px;
+         color: #000;
+         font-weight: 500;
+         text-align: center;
+         margin: 0 auto;
+         font-weight: 600;
+    }
+     .whatsapp-right-part a img {
+         margin-right: 10px;
+         width: 30px;
+    }
+     .whatsapp-right-part a {
+         background: #e62e2d;
+         padding: 10px 15px 10px 15px;
+         border-radius: 100px;
+         font-size: 22px;
+         color: #fff;
+         font-weight: 700;
+         margin-top: 0px;
+         float: left;
+    }
+     .post-your-vacancy-section .post-vacancy-wraper .right {
+         position: absolute;
+         top: -35px;
+         width: 35%;
+    }
+     .post-your-vacancy-section .post-vacancy-wraper .left {
+         text-align: center;
+         padding: 50px 0px 80px 0px;
+    }
+     .post-your-vacancy-section .post-vacancy-wraper .left ul .or {
+         margin: 0px 5px;
+    }
+     .post-your-vacancy-section .post-vacancy-wraper .left ul {
+         list-style: none;
+         margin-top: 35px;
+         padding: 0px;
+    }
+     .post-your-vacancy-section {
+         width: 100%;
+         float: left;
+         background: rgba(79, 82, 255, 0.06);
+         opacity: 0.93;
+         position: relative;
+         margin-top: 70px;
+    }
+     .tranding-co-group-left a {
+         background: #e62e2d;
+         color: #fff;
+         border-radius: 200px;
+         padding: 10px 10px;
+         border: 1px solid #e62e2d;
+         text-decoration: none;
+         transition: 0.3s;
+         font-size: 15px;
+    }
+     .tranding-co-group-left h3 {
+         color: #000;
+         font-size: 26px;
+         font-weight: 800;
+         text-align: left;
+         margin-bottom: 30px;
+    }
+     .tranding-community-group-section {
+         float: left;
+         width: 100%;
+         margin-top: 75px;
+    }
+     .recruitment-section {
+         height: auto;
+         float: left;
+         width: 100%;
+         background: rgba(79, 82, 255, 0.06);
+         opacity: 0.93;
+         background-image: url(../img/banner1.png);
+         background-repeat: round;
+         margin-top: 90px;
+         padding-bottom: 50px;
+    }
+     .recruitment-row {
+         width: 100%;
+         margin: 0 auto;
+    }
+     .recruitment-left-heading h3 {
+         color: #000;
+         font-size: 26px;
+         font-weight: 800;
+         text-align: left;
+         margin-bottom: 30px;
+    }
+     .recruitment-listing ul li i {
+         margin-right: 15px;
+         font-size: 18px;
+         font-weight: 100;
+         vertical-align: middle;
+    }
+     .recruitment-listing ul li {
+         color: #fff;
+         margin: 20px 0px;
+         font-size: 14px;
+         font-weight: 500;
+    }
+     .recruitment-listing ul {
+         list-style: none;
+         background: #5340ff;
+         padding: 20px 15px;
+         border-radius: 10px;
+         margin-top: 60px;
+    }
+     .trending-community-section ul li {
+         display: inline-block;
+         width: 25%;
+         transition: transform .4s;
+    }
+     .instructor-section ul li{
+         width: 25%;
+         margin: 15px 40px;
+    }
+     .instructor-section ul .cu-arrow{
+         display:none;
+    }
+     .instructor-section ul {
+         padding: 0px;
+         position: relative;
+         margin-top: 15px;
+    }
+     .trending-community-section ul .cu-arrow {
+         width: 70px;
+    }
+     .technician-labers-section .technician-labers-part p i {
+         margin-right: 10px;
+         color: #FF1818;
+         vertical-align: middle;
+         font-size: 16px;
+         height: 40px;
+         float: left;
+         position: relative;
+         top: 3px;
+    }
+     .trending-community-section ul .cu-arrow img{
+         width:100%;
+    }
+     .trading-list {
+         width: 85%;
+         margin: 0 auto;
+         overflow-x: auto;
+         overflow-y: hidden;
+         white-space: nowrap;
+         margin-bottom: 15px;
+    }
+     .filter-band .collapse:not(.show) {
+         display: grid;
+    }
+     .filter-band ul {
+         width: 100%;
+    }
+     .filter-band form {
+         width: 42%;
+         margin-right: 0px;
+         padding: 0px 10px;
+         margin-bottom: 0px;
+         float: left;
+         position: relative;
+         top: -46px;
+         left: 120px 
+    }
+     .filter-band ul .reset{
+         display: inline-grid;
+         width: 21%;
+         float: left;
+    }
+     .filter-band ul .reset a {
+         background: #fff;
+         padding: 2px 20px;
+         border-radius: 100px;
+         border: 1px solid #5340ff;
+         width: 100%;
+         text-align: center;
+         display: inline-block;
+         margin-top: 5px;
+         left: 0px;
+         position: relative;
+    }
+     .trending-community-section h3 {
+         color: #000;
+         font-size: 26px;
+         font-weight: 800;
+         text-align: center;
+    }
+     .trending-community-section {
+         float: left;
+         width: 100%;
+         margin-top: 55px;
+    }
+     .what-we-do-section {
+         background: #F5F5FF;
+         text-align: center;
+         width: 100%;
+         float: left;
+         padding: 45px 50px;
+         margin-top: 55px;
+    }
+     .what-we-do-section h3 {
+         font-size: 26px;
+         font-weight: 800;
+         margin-bottom: 25px;
+         color: #000;
+    }
+     .footer-barcode p {
+         color: #FFf;
+         font-size: 14px;
+         font-weight: 700;
+         margin-top: 20px;
+         margin-bottom: 50px;
+    }
+     .footer-menu ul li a {
+         color: #000;
+         text-decoration: none;
+         margin: 0px 10px;
+         font-size: 15px;
+         font-weight: 400;
+         line-height: 15px;
+    }
+     .technician-labers-section {
+         float: left;
+         width: 100%;
+         text-align: center;
+         margin-top: 60px;
+    }
+     .technician-labers-section {
+         float: left;
+         width: 100%;
+         text-align: center;
+         margin-top: 50px;
+    }
+     .filter-band form {
+         width: 140px;
+         margin-right: 10px;
+    }
+     .trading-list ul li {
+         display: inline-block;
+         margin: 0px 6px 0px 0px !important;
+    }
+     .trading-list ul li {
+         display: inline-block;
+         margin: 0px 6px 0px 0px;
+    }
+     .sign-sample {
+         margin: 13% 0% 10% 0%;
+    }
+     .sign-sample .column {
+         float: left;
+         width: 48%;
+         padding: 5px 15px;
+    }
 }
-button:focus:not(:focus-visible) {
-    outline: 0;
-    /* border: 0px; */
-    box-shadow: 0px 0px;
+/****=========================================================================== Max-widht:767px Media Query ==============================================================================**/
+ @media (max-width: 767px) {
 }
-.navbar-nav a {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #200E32;
-}
-.right-top-header {
-
-    float: left;
-    display: -webkit-inline-box;
-}
-.right-top-header .login-header {
-   border: 1px solid #5340FF;
-    text-align: center;
-    /* padding: 0px 14px; */
-    width: 100%;
-    height: auto;
-    border-radius: 285px;
-    width: 89px;
-    text-align: center;
-    margin: 0px;
-    display: inline-block;
-    margin-right: 15px;
-    font-size: 14px;
-    line-height: 15px;
-	
-}
-
-.right-top-header .register-header {
-    border: 1px solid #FE1D26;
-    background: #FE1D26;
-    color: #FFF;
-    border-radius: 285px;
-    padding: 9px 30px;
-    width: 118px;
-    display: initial;
-}
-.navbar-nav{
-	margin-top:10px;
-	margin-bottom:10px;
-}
-.dropbtn {
-      background: none;
-    color: white;
-    /* padding: 16px; */
-    font-size: 14px;
-    border: none;
-    padding: 0px;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    margin-right: 8px;
-}
-
-.scaner-part {
-    text-align: center;
-    margin-top: 105px;
-}
-
-
-.banner-barcode {
-    width: 90px;
-    display: inline-block;
-}
-
-.scan-apply-arrive-part ul {
-    list-style: none;
-    padding: 0px;
-}
-
-.scan-apply-arrive-part ul .arrow {
-    width: 40px;
-    height: 1px;
-    background: #e62e2d;
-    /* position: absolute; */
-    /* z-index: 9999; */
-    /* position: absolute; */
-    position: relative;
-    top: 13px;
-    margin: 0px -5px;
-}
-
-.scan-apply-arrive-part ul li a {
-    border: 2px solid #e62e2d;
-    padding: 5px 16px;
-    border-radius: 100px;
-    background: #fff;
-    color: #200E32;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.scan-apply-arrive-part ul .arrow img {
-    position: relative;
-    top: -12px;
-    width: 9px;
-}
-.scan-apply-arrive-part p {
-    font-weight: 600;
-    font-size: 14px;
-    color: #FE1D26;
-    margin-top: 25px;
-    /* text-align: center; */
-    /* display: inline-block; */
-    /* margin: 0 auto; */
-    width: 100%;
-}
-.whatsapp-right-part {
-       padding-left: 15px;
-    text-align: center;
-    margin-top: 25px;
-}
-
-.whatsapp-right-part h2 {
-    color: #000;
-    font-weight: 800;
-    font-size: 23px;
-    line-height: 32px;
-}
-
-.whatsapp-right-part a {
-        background: #e62e2d;
-    padding: 10px 25px 10px 25px;
-    border-radius: 200px;
-    font-size: 20px;
-    color: #fff;
-    font-weight: 700;
-    margin-top: 15px;
-    float: none;
-   
-}
-.whatsapp-right-part p {
-    font-size: 15px;
-    color: #200E32;
-    line-height: 27px;
-    font-weight: 500;
-    margin-bottom: 25px;
-}
-.whatsapp-right-part a img {
-    margin-right: 15px;
-    width: 25px;
-}
-
-.applying-row .applying-option p {
-    font-size: 16px;
-    color: #000;
-    font-weight: 500;
-    text-align: center;
-    margin: 0 auto;
-    font-weight: 600;
-}
-.applying-row .applying-option {
-    background: #FFFFFF;
-    border: 1px solid #F0F0F0;
-    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 10%);
-    border-radius: 19px;
-    padding: 20px;
-    margin-bottom: 30px;
-}
-
-.applying-row {
-    margin: 45px 0px;
-}
-.post-your-vacancy-section {
-    width: 100%;
-    float: left;
-    background: rgba(79, 82, 255, 0.06);
-    opacity: 0.93;
-    position: relative;
-    margin-top: 0px;
-}
-.post-your-vacancy-section .post-vacancy-wraper .left h4 {
-    font-size: 23px;
-    font-weight: 800;
-    color: #000;
-}
-
-.post-your-vacancy-section .post-vacancy-wraper .left p {
-    color: #200E32;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 27px;
-}
-
-.post-your-vacancy-section .post-vacancy-wraper .left ul li a {
-    color: #FD493E;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 27px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 5%);
-    text-decoration: none;
-    padding: 8px 16px;
-    border: 1px solid #e62e2d;
-    border-radius: 100px;
-    transition: 0.3s;
-    display: inline-block;
-}
-.post-your-vacancy-section .post-vacancy-wraper .left ul li {
-    display: grid;
-}
-
-
-.post-your-vacancy-section .post-vacancy-wraper .left ul {
-    list-style: none;
-    margin-top: 35px;
-    padding: 0px 20px;
-}
-.post-your-vacancy-section .post-vacancy-wraper .left ul .or {
-    margin: 10px 20px;
-}
-
-
-.post-your-vacancy-section .post-vacancy-wraper .right {
-   position: relative;
-    top: 0px;
-    width: 75%;
-    margin: 0 auto;
-}
-.post-your-vacancy-section .post-vacancy-wraper .right img {
-    width: 100%;
-}
-.post-your-vacancy-section .post-vacancy-wraper .left {
-    text-align: center;
-    padding: 40px 0px 30px 0px;
-}
-
-.tranding-co-group-left{
-	text-align:center;
-	margin-bottom: 35px;
-	
-}
-.tranding-co-group-left h3 {
-    color: #000;
-    font-size: 23px;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.carousel-item {
-    height: auto !important;
-    width: 90%;
-    margin-left: 0px;
-    padding-left: 35px;
-}
-.carousel-item button {
-    background: #fff;
-    border: 1px solid #5340FF;
-    padding: 10px 20px;
-    font-size: 14px;
-    color: #000;
-    font-weight: 500;
-    border-radius: 4px;
-    margin-right: 0px;
-    margin-bottom: 15px;
-    transition: 0.3s;
-    width: 100%;
-}
-.recruitment-section .recruitment-left {
-    width: 100%;
-}
-
-.recruitment-left-heading a {
-    background: #e62e2d;
-    color: #fff;
-    border-radius: 200px;
-    padding: 10px 35px;
-    border: 1px solid #e62e2d;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 15px;
-}
-
-.recruitment-left-heading h3 {
-    color: #000;
-    font-size: 23px;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.recruitment-left-heading {
-    width: 100%;
-    text-align: center;
-}
-
-
-.recruitment-section {
-    height: auto;
-    float: left;
-    width: 100%;
-    background: rgba(79, 82, 255, 0.06);
-    opacity: 0.93;
-    background-image: url(../img/banner1.png);
-    background-repeat: round;
-    margin-top: 75px;
-	padding-bottom: 15px;
-}
-
-.recruitment-listing ul li {
-    color: #fff;
-    margin: 20px 0px;
-    font-size: 14px;
-    font-weight: 500;
-    /* float: left; */
-    display: flex;
-}
-.recruitment-listing ul {
-    list-style: none;
-    background: #5340ff;
-    padding: 15px;
-    border-radius: 10px;
-    margin-top: 50px;
-}
-
-.recruitment-listing ul li i {
-    margin-right: 10px;
-    font-size: 16px;
-    font-weight: 100;
-    vertical-align: middle;
-    position: relative;
-    top: 2px;
-}
-.recruitment-listing p {
-    text-align: center;
-}
-
-.technician-labers-section {
-    float: left;
-    width: 100%;
-    text-align: center;
-    margin-top: 40px;
-}
-.technician-labers-section h3 {
-    color: #000;
-    font-size: 23px;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.technician-labers-section .technician-labers-part {
-    background: #FFFFFF;
-    border: 1px solid #F0F0F0;
-    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 10%);
-    border-radius: 18px;
-    padding: 20px;
-    margin: 0px 15px 30px 15px;
-}
-
-.tranding {
-    color: #000;
-    font-size: 15px;
-    font-weight: 800;
-    width: 100% !important;
-    border-bottom: 1px solid #5a5a5a;
-    margin-bottom: 25px !important;
-    padding-bottom: 5px;
-}
-
-.trading-list ul li {
-    display: inline-block;
-    margin: 0px 10px 0px 0px;
-    width: 45%;
-}
-
-
-
-.trading-list ul li a {
-    text-decoration: none;
-    border: 1px solid #5340ff;
-    padding: 2px 7px;
-    color: #000;
-    font-size: 14px;
-    font-weight: 600;
-    width: 100%;
-    float: left;
-    display: inline-block;
-}
-
-.table tbody, td, tfoot, th, thead, tr{
-	font-size:14px;
-}
-
-.trending-community-section {
-    float: left;
-    width: 100%;
-    margin-top: 40px;
-}
-.trending-community-section h3 {
-    color: #000;
-    font-size: 23px;
-    font-weight: 800;
-    text-align: center;
-}
-
-.trending-community-section p {
-    color: #000;
-    font-size: 14px;
-    font-weight: 600;
-    text-align: center;
-}
-
-.trending-community-section ul .cu-arrow {
+/****=========================================================================== Min-width:320px and Max-widht:479px Media Query ==============================================================================**/
+ @media (min-width: 320px) and (max-width: 479px) {
+     .footer-menu ul li a {
+         color: #000;
+         text-decoration: none;
+         margin: 0px 15px;
+         font-size: 14px;
+         font-weight: 400;
+         line-height: 20px;
+    }
+     .navbar-brand img {
+         width: 150px;
+    }
+     .whatsapp-left-part img {
+         width: 75%;
+    }
+     .footer-menu ul {
+         list-style: none;
+         margin: 0px;
+         padding: 0;
+    }
+     button:focus:not(:focus-visible) {
+         outline: 0;
+        /* border: 0px;
+         */
+         box-shadow: 0px 0px;
+    }
+     .navbar-nav a {
+         font-style: normal;
+         font-weight: 500;
+         font-size: 13px;
+         line-height: 15px;
+         display: flex;
+         align-items: center;
+         text-align: center;
+         letter-spacing: 0.03em;
+         text-transform: uppercase;
+         color: #200E32;
+    }
+     .right-top-header {
+         float: left;
+         display: -webkit-inline-box;
+    }
+     .right-top-header .login-header {
+         text-align: center;
+        /* padding: 0px 14px;
+         */
+         width: 100%;
+         height: auto;
+         border-radius: 285px;
+         width: 89px;
+         text-align: center;
+         margin: 0px;
+         display: inline-block;
+         margin-right: 15px;
+         font-size: 14px;
+         line-height: 15px;
+    }
+     .right-top-header .register-header {
+         border: 1px solid #FE1D26;
+         background: #FE1D26;
+         color: #FFF;
+         border-radius: 285px;
+         padding: 9px 30px;
+         width: 118px;
+         display: initial;
+    }
+     .navbar-nav{
+         margin-top:10px;
+         margin-bottom:10px;
+    }
+     .dropbtn {
+         background: none;
+         color: white;
+        /* padding: 16px;
+         */
+         font-size: 14px;
+         border: none;
+         padding: 0px;
+    }
+     .dropdown {
+         position: relative;
+         display: inline-block;
+         margin-right: 8px;
+    }
+     .scaner-part {
+         text-align: center;
+         margin-top: 105px;
+    }
+     .banner-barcode {
+         width: 90px;
+         display: inline-block;
+    }
+     .scan-apply-arrive-part ul {
+         list-style: none;
+         padding: 0px;
+    }
+     .scan-apply-arrive-part ul .arrow {
+         width: 40px;
+         height: 1px;
+         background: #e62e2d;
+        /* position: absolute;
+         */
+        /* z-index: 9999;
+         */
+        /* position: absolute;
+         */
+         position: relative;
+         top: 13px;
+         margin: 0px -5px;
+    }
+     .scan-apply-arrive-part ul li a {
+         border: 2px solid #e62e2d;
+         padding: 5px 16px;
+         border-radius: 100px;
+         background: #fff;
+         color: #200E32;
+         font-size: 13px;
+         font-weight: 700;
+         letter-spacing: 0.03em;
+         text-decoration: none;
+         transition: 0.3s;
+    }
+     .scan-apply-arrive-part ul .arrow img {
+         position: relative;
+         top: -12px;
+         width: 9px;
+    }
+     .scan-apply-arrive-part p {
+         font-weight: 600;
+         font-size: 14px;
+         color: #FE1D26;
+         margin-top: 25px;
+        /* text-align: center;
+         */
+        /* display: inline-block;
+         */
+        /* margin: 0 auto;
+         */
+         width: 100%;
+    }
+     .whatsapp-right-part {
+         padding-left: 15px;
+         text-align: center;
+         margin-top: 25px;
+    }
+     .whatsapp-right-part h2 {
+         color: #000;
+         font-weight: 800;
+         font-size: 23px;
+         line-height: 32px;
+    }
+     .whatsapp-right-part a {
+         background: #e62e2d;
+         padding: 10px 25px 10px 25px;
+         border-radius: 200px;
+         font-size: 20px;
+         color: #fff;
+         font-weight: 700;
+         margin-top: 15px;
+         float: none;
+    }
+     .whatsapp-right-part p {
+         font-size: 15px;
+         color: #200E32;
+         line-height: 27px;
+         font-weight: 500;
+         margin-bottom: 25px;
+    }
+     .whatsapp-right-part a img {
+         margin-right: 15px;
+         width: 25px;
+    }
+     .applying-row .applying-option p {
+         font-size: 16px;
+         color: #000;
+         font-weight: 500;
+         text-align: center;
+         margin: 0 auto;
+         font-weight: 600;
+    }
+     .applying-row .applying-option {
+         background: #FFFFFF;
+         border: 1px solid #F0F0F0;
+         box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 10%);
+         border-radius: 19px;
+         padding: 20px;
+         margin-bottom: 30px;
+    }
+     .applying-row {
+         margin: 45px 0px;
+    }
+     .post-your-vacancy-section {
+         width: 100%;
+         float: left;
+         background: rgba(79, 82, 255, 0.06);
+         opacity: 0.93;
+         position: relative;
+         margin-top: 0px;
+    }
+     .post-your-vacancy-section .post-vacancy-wraper .left h4 {
+         font-size: 23px;
+         font-weight: 800;
+         color: #000;
+    }
+     .post-your-vacancy-section .post-vacancy-wraper .left p {
+         color: #200E32;
+         font-size: 15px;
+         font-weight: 500;
+         line-height: 27px;
+    }
+     .post-your-vacancy-section .post-vacancy-wraper .left ul li a {
+         color: #FD493E;
+         font-size: 15px;
+         font-weight: 700;
+         line-height: 27px;
+         background: #FFFFFF;
+         box-shadow: 0px 4px 4px rgb(0 0 0 / 5%);
+         text-decoration: none;
+         padding: 8px 16px;
+         border: 1px solid #e62e2d;
+         border-radius: 100px;
+         transition: 0.3s;
+         display: inline-block;
+    }
+     .post-your-vacancy-section .post-vacancy-wraper .left ul li {
+         display: grid;
+    }
+     .post-your-vacancy-section .post-vacancy-wraper .left ul {
+         list-style: none;
+         margin-top: 35px;
+         padding: 0px 20px;
+    }
+     .post-your-vacancy-section .post-vacancy-wraper .left ul .or {
+         margin: 10px 20px;
+    }
+     .post-your-vacancy-section .post-vacancy-wraper .right {
+         position: relative;
+         top: 0px;
+         width: 75%;
+         margin: 0 auto;
+    }
+     .post-your-vacancy-section .post-vacancy-wraper .right img {
+         width: 100%;
+    }
+     .post-your-vacancy-section .post-vacancy-wraper .left {
+         text-align: center;
+         padding: 40px 0px 30px 0px;
+    }
+     .tranding-co-group-left{
+         text-align:center;
+         margin-bottom: 35px;
+    }
+     .tranding-co-group-left h3 {
+         color: #000;
+         font-size: 23px;
+         font-weight: 800;
+         text-align: center;
+         margin-bottom: 25px;
+    }
+     .carousel-item {
+         height: auto !important;
+         width: 90%;
+         margin-left: 0px;
+         padding-left: 35px;
+    }
+     .carousel-item button {
+        background: #fff;
  
-    display: none;
+        padding: 5px 10px;
+        font-size: 14px;
+        color: #000;
+        font-weight: 500;
+        border-radius: 4px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+        width: auto;
+        background: rgba(253, 73, 62, 0.2);
+        border: 1px solid #FD493E;
+    }
+    .tranding-community-group-section {
+        float: left;
+        width: 100%;
+        margin-top: 41px;
+    }
+    .trading-list {
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 0px;
+    }
+     .recruitment-section .recruitment-left {
+         width: 100%;
+    }
+     .recruitment-left-heading a {
+         background: #e62e2d;
+         color: #fff;
+         border-radius: 200px;
+         padding: 10px 35px;
+         border: 1px solid #e62e2d;
+         text-decoration: none;
+         transition: 0.3s;
+         font-size: 15px;
+    }
+     .recruitment-left-heading h3 {
+         color: #000;
+         font-size: 23px;
+         font-weight: 800;
+         text-align: center;
+         margin-bottom: 30px;
+    }
+     .recruitment-left-heading {
+         width: 100%;
+         text-align: center;
+    }
+     .recruitment-section {
+         height: auto;
+         float: left;
+         width: 100%;
+         background: rgba(79, 82, 255, 0.06);
+         opacity: 0.93;
+         background-image: url(../img/banner1.png);
+         background-repeat: round;
+         margin-top: 75px;
+         padding-bottom: 15px;
+    }
+     .recruitment-listing ul li {
+         color: #fff;
+         margin: 20px 0px;
+         font-size: 14px;
+         font-weight: 500;
+        /* float: left;
+         */
+         display: flex;
+    }
+     .recruitment-listing ul {
+         list-style: none;
+         background: #5340ff;
+         padding: 15px;
+         border-radius: 10px;
+         margin-top: 50px;
+    }
+     .recruitment-listing ul li i {
+         margin-right: 10px;
+         font-size: 16px;
+         font-weight: 100;
+         vertical-align: middle;
+         position: relative;
+         top: 2px;
+    }
+     .recruitment-listing p {
+         text-align: center;
+    }
+     .technician-labers-section {
+         float: left;
+         width: 100%;
+         text-align: center;
+         margin-top: 40px;
+    }
+     .technician-labers-section h3 {
+         color: #000;
+         font-size: 23px;
+         font-weight: 800;
+         text-align: center;
+         margin-bottom: 0px;
+         line-height: 35px;
+    }
+     .technician-labers-section .technician-labers-part p i {
+         margin-right: 5px;
+         color: #FF1818;
+         vertical-align: middle;
+         font-size: 16px;
+         width: 25px;
+         float: left;
+         vertical-align: middle;
+         position: relative;
+         top: 4px;
+         height: 35px;
+    }
+     .technician-labers-section .technician-labers-col {
+         margin: 0 auto;
+         display: inline-block;
+         width: 100%;
+    }
+     .technician-labers-section .technician-labers-part p {
+         font-size: 15px;
+         color: #000;
+         font-weight: 500;
+         text-align: left;
+         margin: 0 auto;
+         font-weight: 600;
+         float: left;
+         margin-top: 18px;
+    }
+     .technician-labers-col-right {
+         width: 100%;
+         display: inline-block;
+    }
+     .filter-band .collapse {
+         display:inline-block;
+    }
+     .filter-band form {
+         width: 100%;
+         margin-right: 0px;
+         padding: 0px 10px;
+         margin-bottom: 30px;
+    }
+     .filter-band ul .reset a {
+         background: #fff;
+         padding: 7px 20px;
+         border-radius: 100px;
+         border: 1px solid #5340ff;
+         width: 100%;
+         text-align: center;
+         display: inline-block;
+         margin-top: 5px;
+         left: 0px;
+         position: relative;
+    }
+     .filter-band form input {
+         border-radius: 100px;
+         height: 33px;
+         margin-right: 0px !important;
+    }
+     .tranding {
+         color: #000;
+         font-size: 15px;
+         font-weight: 800;
+         width: 100% !important;
+         border-bottom: 1px solid #5a5a5a;
+         margin-bottom: 25px !important;
+         padding-bottom: 5px;
+    }
+     .trading-list ul li {
+         display: inline-block;
+         margin: 0px 10px 0px 0px;
+         width:auto;
+    }
+     .trading-list ul li a {
+        text-decoration: none;
+       
+        padding: 2px 7px;
+        color: #000;
+        font-size: 14px;
+        font-weight: 600;
+        width: 100%;
+        float: left;
+        display: inline-block;
+        background: rgba(253, 73, 62, 0.2);
+        border: 1px solid #FD493E;
+    }
+     .table tbody, td, tfoot, th, thead, tr{
+         font-size:14px;
+    }
+     .trending-community-section {
+         float: left;
+         width: 100%;
+         margin-top: 40px;
+    }
+     .trending-community-section h3 {
+         color: #000;
+         font-size: 23px;
+         font-weight: 800;
+         text-align: center;
+    }
+     .trending-community-section p {
+         color: #000;
+         font-size: 14px;
+         font-weight: 600;
+         text-align: center;
+    }
+     .trending-community-section ul .cu-arrow {
+         display: none;
+    }
+     .trending-community-section ul li {
+         display: inline-block;
+         width: 60%;
+         transition: transform .4s;
+         margin-bottom: 25px;
+    }
+     .trending-community-section ul {
+         list-style: none;
+         text-align: center;
+         margin-top: 40px;
+         padding: 0px;
+    }
+     .what-we-do-section {
+         background: #F5F5FF;
+         text-align: center;
+         width: 100%;
+         float: left;
+         padding: 45px 0px;
+         margin-top: 0px;
+    }
+     .what-we-do-section h3 {
+         font-size: 23px;
+         font-weight: 800;
+         margin-bottom: 25px;
+         color: #000;
+    }
+     .what-we-do-section p {
+         color: #000;
+         font-size: 14px;
+         font-weight: 400;
+    }
+     .footer-listing-col {
+         padding-bottom: 0px;
+         margin-bottom: 0px !important;
+         width: 50%;
+    }
+     .footer-logo-col {
+         padding-right: 30px;
+         width: 50%;
+    }
+     .footer-logo {
+         width: 100%;
+    }
+     .footer-logo-ul li {
+         display: inline-block;
+         margin-top: 10px;
+    }
+     .footer-logo-ul li a {
+         background: #fff;
+         width: 25px;
+         height: 25px;
+         margin-right: 5px;
+         padding: 3px 2px;
+         border-radius: 100%;
+        /* width: 100%;
+         */
+         text-align: center;
+         font-size: 17px;
+    }
+     .footer-barcode p {
+         color: #FFf;
+         font-size: 14px;
+         font-weight: 700;
+         margin-top: 10px;
+    }
+     .footer .container{
+         padding-bottom:0px !important;
+    }
+    /**======================= ==========================**/
+     .sign-sample .column {
+         float: left;
+         width: 100%;
+         padding: 0 10px;
+    }
+     .sign-sample {
+         margin: 30% 0% 10% 0%;
+         float: left;
+         width: 100%;
+    }
+     .sign-form-social {
+         width: 75%;
+         margin: 0 auto;
+    }
+     .sign-sample .slider-content .slider-item h2 {
+         font-size: 28px;
+         color: #000000;
+         text-align: center;
+         margin-bottom: 15px;
+         font-weight: 800;
+    }
+     .sign-sample .slider-content .slider-item .sign-para {
+         text-align: center;
+         font-size: 15px;
+         font-weight: 400;
+         color: #000000;
+    }
+     .sign-sample .card {
+         padding: 30px 0px;
+         text-align: center;
+         background: #FFFFFF;
+         border: 1px solid #ECECEC;
+         box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+         border-radius: 5px;
+         margin-bottom: 20px;
+         height: 170px;
+         width: 85%;
+    }
 }
-.trending-community-section ul li {
-    display: inline-block;
-    width: 75%;
-    transition: transform .4s;
-    margin-bottom: 25px;
-}
-.trending-community-section ul {
-    list-style: none;
-    text-align: center;
-    margin-top: 40px;
-    padding: 0px;
-}
-
-
-.what-we-do-section {
-    background: #F5F5FF;
-    text-align: center;
-    width: 100%;
-    float: left;
-    padding: 45px 0px;
-    margin-top: 0px;
-}
-
-.what-we-do-section h3 {
-    font-size: 23px;
-    font-weight: 800;
-    margin-bottom: 25px;
-    color: #000;
-}
-
-.what-we-do-section p {
-    color: #000;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-
-
-.footer-listing-col {
-        padding-bottom: 0px;
-    margin-bottom: 0px !important;
-    width: 50%;
-	
-}
-.footer-logo-col {
-    padding-right: 30px;
-    width: 50%;
-}
-
-.footer-logo {
-    width: 100%;
-}
-.footer-logo-ul li {
-    display: inline-block;
-    margin-top: 10px;
-}
-.footer-logo-ul li a {
-    background: #fff;
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
-    padding: 3px 2px;
-    border-radius: 100%;
-    /* width: 100%; */
-    text-align: center;
-    font-size: 17px;
-}
-
-.footer-barcode p {
-    color: #FFf;
-    font-size: 14px;
-    font-weight: 700;
-    margin-top: 10px;
-}
-.footer .container{
-	padding-bottom:0px !important;
-}
-
-
-
-
-
-
-
-
-
-}
-
-
+ 
