@@ -1066,9 +1066,26 @@ font-weight: 200;
    }
   
   .sign-form-social{
-	  width: 50%;
+	  width: 100%;
     margin: 0 auto;
   }
+
+  .sign-form-social .sign-form-left{
+    width: 60%;
+    float: left;
+    margin-top: 30px;
+  }
+  .sign-form-social .sign-form-left form{
+    width: 90%;
+    border-right: 1px solid #C4C4C4;
+    padding-right: 15%;
+  }
+  .sign-form-social .sign-form-right{
+    width: 40%;
+    float: left;
+    margin-top: 30px;
+  }
+
   .sign-form-social .form-control {
 	      margin-bottom: 20px;
     border-radius: 0px;
@@ -1355,19 +1372,164 @@ display: none;
 
 }
 .infomation-slide .infomation-left-col{
-    width: 60%;
+    width: 65%;
     float: left;
+}
+.infomation-slide .infomation-left-col ul {
+    border: 1px solid #C4C4C4;
+    border-radius: 2px;
+    padding: 10px 0px;
+    margin-top: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.infomation-slide .infomation-left-col ul li {
+    width: 100%;
+    float: left;
+    display: inline-block;
+    margin: 0px;
+    border-bottom: 1px solid #C4C4C4;
+    padding: 8px 15px;
+}
+.infomation-slide .infomation-left-col ul li:last-child{
+    border-bottom: 0px solid #C4C4C4;
 }
 .infomation-slide .infomation-left-col ul li label{
-
+    float: left;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
 }
 .infomation-slide .infomation-left-col ul li span{
-
+    float: right;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
 }
-.infomation-slide .infomation-left-col ul li i{
-
+.infomation-slide .infomation-left-col ul li span button{
+    color: #808080;
+    border: 0px solid;
+    padding: 0px;
+    margin-left: 10px;
+    transition: 0.4s;
 }
+.infomation-slide .infomation-left-col ul li span button:hover {
+    color: #808080;
+    border: 0px solid;
+    padding: 0px;
+    margin-left: 20px;
+    background: transparent;
+}
+
 .infomation-slide .infomation-right-col{
-    width: 30%;
+    width: 35%;
     float: left;
+}
+.sign-checkbox {
+    float: left;
+    width: 100%;
+}
+.sign-checkbox input{
+    height: 20px;
+    width: 20px;
+    vertical-align: sub;
+    margin-right: 5px;
+    color: #000;
+    font-size: 16px;
+}
+.sign-checkbox input span{
+font-size: 16px;
+color: #000;
+font-weight: 500;
+}
+.sign-btn {
+    margin-top: 30px;
+    float: left;
+}
+.sign-btn a{
+    background: rgba(255, 24, 24, 0.5);
+    border: 1px solid rgba(255, 24, 24, 0.5);
+    border-radius: 139px;
+    padding: 5px 40px;
+    color:#fff;
+    transition: 0.3s;
+}
+.sign-btn a:hover{
+    background: rgb(84 99 255 / 65%);
+    border: 1px solid rgb(84 99 255 / 91%);
+    border-radius: 139px;
+    padding: 5px 40px;
+    color: #fff;
+}
+.sign-btn a:focus{
+    background: rgb(84 99 255 / 65%);
+    border: 1px solid rgb(84 99 255 / 91%);
+    border-radius: 139px;
+    padding: 5px 40px;
+    color: #fff;
+}
+.infomation-right-col .info-barcode{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+	    margin-top: 15px;
+	}
+
+.infomation-right-col p{
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 15px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.infomation-right-col label{
+    text-align: center;
+    width: 100%;
+}
+  
+
+.infomation-right-col label a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+.infomation-right-col label a:hover{
+    text-decoration: underline;
+    color: #000;
+    font-size: 25px;
+}
+.thankyou-col{
+    text-align: center;
+    margin: 10% 0% 25% 0%;
+}
+.thankyou-col .thankyou-img{
+    
+    margin-bottom: 40px;
+}
+.thankyou-col .thankyou-img img{
+
+}
+
+.thankyou-col h4{
+
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 57px;
+    letter-spacing: 0.03em;
+    
+    color: #000000;
+    
+
+
+    
+}
+.thankyou-col p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 44px;
+    color: #000000;
 }

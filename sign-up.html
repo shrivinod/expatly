@@ -136,6 +136,7 @@
                <li class="slider-item sign-form-social">
                   <h2>Sign Up</h2>
                   <p class="sign-para">Filled the below basic deatails to onboard</p>
+                  <div class="col-lg-8 sign-form-left">
                   <form>
                      <div class="form-input-div">
                         <input type="email" class="form-control" placeholder="Your Name">
@@ -151,6 +152,14 @@
                         </ul>
                      </div>
                   </form>
+               </div>
+                  <div class="col-lg-4 sign-form-right infomation-right-col">
+                     <div class="info-barcode">
+                     <img src="img/infobarcode.png">
+                     </div>
+                     <p>Scan Whatsapp</p>
+                     <label><a href="">w.a/Whatsapp link</a></label>
+                   </div>
                </li>
                <li class="slider-item login-language">
                   <h2>We Understand Your language and Concern </h2>
@@ -729,17 +738,46 @@
                   <h2>Review Infomation</h2>
                   <div class="col-lg-8 infomation-left-col">
                      <ul>
-                        <li><label>Full Name</label><span>John Doe</span><i class="fa fa-pencil-square-o" aria-hidden="true"></i></li>
+                        <li><label>Full Name</label><span>John Doe
+                           <button id="pre-info"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                           </span>
+                        </li>
+                        <li><label>Email Address</label><span>John _doe@gmail.com
+                           <button id="pre-info"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                          </span>
+                       </li>
+                       <li><label>Position</label><span>Wardboy
+                        <button id="pre-info3"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                       </span>
+                    </li>
+                    <li><label>Located in</label><span>Hyderabad
+                     <button id="pre-info4"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                    </span>
+                 </li>
+                 <li><label>Willing to Work </label><span>Oman, Dubai, malasiya
+                  <button id="pre-info4"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                 </span>
+              </li>
                      </ul>
+
+
+                     <div class="sign-checkbox">
+                        <label><input type="checkbox"> <span>Agree with all Terms and Conditions</span></label>
+                      </div>
+
+                      <div class="sign-btn">
+                        <a href="thankyou.html" type="submit" class="btn">Sign Up</a>
+                      </div>
+
                   </div>
                   <div class="col-lg-4 infomation-right-col">
-                   
+                    <div class="info-barcode">
+                    <img src="img/infobarcode.png">
+                    </div>
+                    <p>Scan Whatsapp</p>
+                    <label><a href="">w.a/Whatsapp link</a></label>
                   </div>
-                  <ul>
-                     <li><button id="pre-info">button</button></li>
-                     <li><button id="pre-info2">button</button></li>
-                     
-                  </ul>
+                  
                </li>
 
 
@@ -946,7 +984,7 @@
    <!-- End of .container -->
    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-   <<script type="text/javascript" src="js/jquery.min.js">
+   <script type="text/javascript" src="js/jquery.min.js">
       </script>
       <!-- <script src="js/jquery.js"></script> -->
       <script src="js/jquery.slidizle.js"></script>
@@ -1016,6 +1054,13 @@ $('#pre-info').on('click',function(){
 })
 $('#pre-info2').on('click',function(){
    api.goto(2)
+})
+
+$('#pre-info3').on('click',function(){
+   api.goto(3)
+})
+$('#pre-info4').on('click',function(){
+   api.goto(4)
 })
          });
 
