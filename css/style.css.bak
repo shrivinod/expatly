@@ -950,7 +950,7 @@
      font-size: 30px;
      font-weight: 800;
      text-align: center;
-     margin-bottom: 30px;
+     margin-bottom: 50px;
 }
  .recruitment-left-heading a {
      color: #5463FF;
@@ -1099,25 +1099,24 @@
 /*================== Home Page Css End==============================*/
 /*=================== Sign Up Page Css Start =========================*/
  .sign-up-section{
-    /* height:800px;
-     */
+  
 }
  .slidizle {
      position: relative;
      overflow: hidden;
 }
-/* line 8, ../sass/_slidizle.scss */
+
  .slidizle-content {
 }
-/* line 13, ../sass/_slidizle.scss */
+
  .slidizle-slide {
      display: none;
 }
-/* line 21, ../sass/_slidizle.scss */
+
  .slidizle-slide.active {
      display: block;
 }
-/* line 25, ../sass/_slidizle.scss */
+
  .slidizle-navigation {
      position: absolute;
      bottom: 30px;
@@ -1126,7 +1125,7 @@
      text-align: center;
      z-index: 10;
 }
-/* line 32, ../sass/_slidizle.scss */
+
  .slidizle-navigation li {
      display: inline-block;
      width: 10px;
@@ -1146,11 +1145,11 @@
      -webkit-transition-delay: 0s;
      transition: opacity 0.2s ease-in-out 0s;
 }
-/* line 44, ../sass/_slidizle.scss */
+
  .slidizle-navigation li:hover, .slidizle-navigation li.active {
-     opacity: 1;
+     opacity: 0;
 }
-/* line 50, ../sass/_slidizle.scss */
+
  .slidizle-next, .slidizle-previous {
      color: white;
      font-size: 30px;
@@ -1169,22 +1168,22 @@
      -webkit-transition-delay: 0s;
      transition: opacity 0.2s ease-in-out 0s;
 }
-/* line 62, ../sass/_slidizle.scss */
+
  .slidizle-next.disabled, .slidizle-previous.disabled {
-     opacity: 0;
+     opacity: 10;
      cursor: default;
 }
-/* line 67, ../sass/_slidizle.scss */
+
  .slidizle-next {
      right: 30px;
      color: red 
 }
-/* line 70, ../sass/_slidizle.scss */
+
  .slidizle-previous {
      left: 30px;
      color: red 
 }
-/* line 74, ../sass/_slidizle.scss */
+
  .slidizle-loading {
      position: absolute;
      top: 0;
@@ -1200,12 +1199,12 @@
      -webkit-transition-delay: 0s;
      transition: opacity 0.2s ease-in-out 0s;
 }
-/* line 83, ../sass/_slidizle.scss */
+
  .loading .slidizle-loading {
-     opacity: .8;
+     opacity: 1;
      pointer-events: auto;
 }
-/* line 6, ../sass/style.scss */
+
  * {
      -moz-box-sizing: border-box;
      -webkit-box-sizing: border-box;
@@ -1231,9 +1230,98 @@
      border-radius: 5px;
      margin-bottom: 20px;
      height: 170px;
+	 transition: 0.4s;
 }
  .sign-sample .card .sign-icon-div{
+	 position: relative;
+        display: inline-block;
 }
+
+.sign-sample .card .sign-icon-div .sign01-wht-icon{
+	display: none;
+    position: absolute;
+    top: 0px;
+    left: 74px;
+ 
+}
+.sign-sample .card .sign-icon-div .sign02-wht-icon{
+	display: none;
+    position: absolute;
+    top: 0px;
+    left: 67px;
+    width: 66px;
+ 
+}
+.sign-sample .card .sign-icon-div .sign03-wht-icon{
+	display: none;
+    position: absolute;
+    top: 0px;
+    left: 78px;
+    width: 44px;
+ 
+}
+.sign-sample .card .sign-icon-div .sign04-wht-icon{
+	display: none;
+    position: absolute;
+    top: 0px;
+    left: 76px;
+    width: 46px;
+ 
+}
+.sign-sample .card:hover .sign01-wht-icon{
+	 display: inline;
+}
+.sign-sample .card:hover .sign02-wht-icon{
+	 display: inline;
+}
+.sign-sample .card:hover .sign03-wht-icon{
+	 display: inline;
+}
+.sign-sample .card:hover .sign04-wht-icon{
+	 display: inline;
+}
+.sign-sample .card.active{
+	background: #FF1818;
+    border: 1px solid #FF1818;
+    text-align: center;
+}
+.sign-sample .card.active .sign01-wht-icon {
+	    display: inline-block;
+}
+
+.sign-sample .card.active .sign02-wht-icon {
+	    display: inline-block;
+}
+.sign-sample .card.active .sign03-wht-icon {
+	    display: inline-block;
+}
+.sign-sample .card.active .sign04-wht-icon {
+	    display: inline-block;
+}
+
+
+.sign-sample .card.active p{
+	color: #ffffff;
+}
+
+.sign-sample .card:hover{
+	background: #FF1818;
+   
+    border: 1px solid #FF1818;
+    text-align: center;
+}
+.sign-sample .card:hover p {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.sign-sample .card:hover .sign01-red-icon{
+	    visibility: hidden;
+}
+
+
  .sign-sample .sign-slider .nav-item a i{
      font-size: 25px;
      margin-left: 11px;
@@ -1611,8 +1699,9 @@
  .infomation-slide{
 }
  .infomation-slide .infomation-left-col{
-     width: 65%;
-     float: left;
+    width: 90%;
+    /* float: left; */
+    margin: 0 auto;
 }
  .infomation-slide .infomation-left-col ul {
      border: 1px solid #C4C4C4;
@@ -1645,19 +1734,25 @@
      font-size: 16px;
      font-weight: 600;
      text-align: right;
+	 display: flex;
+	 
 }
+ .infomation-slide .infomation-left-col ul li .signupmemberaddress{
+	 width:80%;
+ }
  .infomation-slide .infomation-left-col ul li span button{
      color: #808080;
      border: 0px solid;
      padding: 0px;
      margin-left: 10px;
-     transition: 0.4s;
+	 background: transparent;
+    
 }
  .infomation-slide .infomation-left-col ul li span button:hover {
      color: #808080;
      border: 0px solid;
      padding: 0px;
-     margin-left: 20px;
+     margin-left: 10px;
      background: transparent;
 }
  .infomation-slide .infomation-right-col{
@@ -1686,26 +1781,26 @@
      float: left;
 }
  .sign-btn a{
-     background: rgba(255, 24, 24, 0.5);
-     border: 1px solid rgba(255, 24, 24, 0.5);
-     border-radius: 139px;
-     padding: 5px 40px;
-     color:#fff;
-     transition: 0.3s;
+    background: red;
+    border: 1px solid red;
+    border-radius: 139px;
+    padding: 5px 40px;
+    color: #fff;
+    transition: 0.3s;
 }
  .sign-btn a:hover{
-     background: rgb(84 99 255 / 65%);
-     border: 1px solid rgb(84 99 255 / 91%);
+     background:#fff;
+    border: 1px solid #FF1818;
      border-radius: 139px;
      padding: 5px 40px;
-     color: #fff;
+     color: #FF1818;;
 }
  .sign-btn a:focus{
-     background: rgb(84 99 255 / 65%);
-     border: 1px solid rgb(84 99 255 / 91%);
+     background:#fff;
+    border: 1px solid #FF1818;
      border-radius: 139px;
      padding: 5px 40px;
-     color: #fff;
+     color: #FF1818;;
 }
  .infomation-right-col .info-barcode{
      width: 40%;
@@ -1864,4 +1959,11 @@
      display: flex;
      width: 35%;
      padding-left: 4%;
+}
+
+.login-language .signsearchbox{
+	    width: 50%;
+    border-radius: 0px;
+    margin: 0 auto;
+    margin-top: 15px;
 }
