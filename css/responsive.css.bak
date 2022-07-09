@@ -50,13 +50,15 @@
     }
      .whatsapp-right-part h2 {
          color: #000;
-         font-weight: 800;
-         font-size: 30px;
-         line-height: 40px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
     }
      .post-your-vacancy-section .post-vacancy-wraper .left {
-         text-align: center;
-         padding: 110px 0px 80px 0px;
+    
+            text-align: center;
+    padding: 0px 0px 20px 0px;
     }
      .recruitment-listing ul li i {
          margin-right: 15px;
@@ -72,14 +74,7 @@
          margin-top: 60px;
     }
      .recruitment-left-heading a {
-         background: #e62e2d;
-         color: #fff;
-         border-radius: 200px;
-         padding: 10px 35px;
-         border: 1px solid #e62e2d;
-         text-decoration: none;
-         transition: 0.3s;
-         float: left;
+        
     }
      .recruitment-left-heading h3 {
          color: #000;
@@ -89,19 +84,19 @@
          margin-bottom: 15px;
     }
      .recruitment-section {
-         height: auto;
-         float: left;
-         width: 100%;
-         background: rgba(79, 82, 255, 0.06);
-         opacity: 0.93;
-         background-image: url(../img/banner1.png);
-         background-repeat: round;
-         margin-top: 110px;
-         padding-bottom: 50px;
+            height: auto;
+    float: left;
+    width: 100%;
+    /* background: rgba(79, 82, 255, 0.06); */
+    /* opacity: 0.93; */
+    /* background-image: url(../img/banner1.png); */
+    /* background-repeat: round; */
+    margin-top: 70px;
+    padding-bottom: 20px;
     }
      .trading-list ul li {
          display: inline-block;
-         margin: 0px 12px 0px 0px;
+            margin: 0px 10px 10px 0px;
     }
      .trading-list ul li a {
          text-decoration: none;
@@ -111,10 +106,29 @@
          font-size: 13px;
          font-weight: 600;
     }
+	.filter-band ul .reset {
+    margin-left: 70px;
+}
      .filter-band ul li {
          margin: 0px 0px;
          padding: 8px 5px;
     }
+	.filter-band form input {
+    border-radius: 0px;
+    height: 56px;
+    background: #fff;
+    width: 100%;
+     text-align: center;
+    border: 1px solid #dee2e6;
+}
+.filter-band form input:focus {
+    border-radius: 0px;
+    height: 56px;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
      .filter-band ul li {
          margin: 0px 0px;
          padding: 8px 5px !important;
@@ -129,10 +143,11 @@
          width: 100%;
     }
      .trending-community-section ul li {
-         display: inline-block;
-         width: 24%;
-         transition: transform .4s;
+            display: inline-block;
+    width: 20%;
+    transition: transform .4s;
     }
+	
      .instructor-section ul li {
          width:19%;
     }
@@ -157,6 +172,86 @@
          margin: 0px;
          padding: 0px;
     }
+	.applying-row .applying-col {
+    float: left;
+    margin: 0px 19px;
+    width: 20%;
+}
+
+.post-vacancy-wraper {
+    width: 85%;
+    margin: 0 auto;
+}
+.tranding-community-group-section button {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 10px 5px;
+}
+
+
+.trending-community-section {
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.carousel-item {
+    height: auto !important;
+    width: 90%;
+    margin-left: 0px;
+    padding-left: 70px;
+}
+
+.trending-community-section .three-container {
+    width: 100%;
+}
+.trending-community-section .four-container ul li {
+    width: 16%;
+    margin: 0px 30px;
+}
+.sign-sample .card .sign-icon-div .sign01-wht-icon {
+
+    position: absolute;
+    top: 0px;
+    left: 55px;
+}
+.sign-sample .card .sign-icon-div .sign02-wht-icon {
+   
+    position: absolute;
+    top: 0px;
+    left: 48px;
+    width: 66px;
+}
+.sign-sample .card .sign-icon-div .sign03-wht-icon {
+
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    width: 44px;
+}
+
+.sign-sample .card .sign-icon-div .sign04-wht-icon {
+
+    position: absolute;
+    top: 0px;
+    left: 59px;
+    width: 46px;
+}
+
+.sign-sample .card p {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
 }
 /****=========================================================================== Min-width:768px and Max-widht:1023px Media Query ==============================================================================**/
  @media (min-width: 768px) and (max-width: 1023px) {
@@ -312,23 +407,25 @@
          width: 30px;
     }
      .whatsapp-right-part a {
-         background: #e62e2d;
-         padding: 10px 15px 10px 15px;
-         border-radius: 100px;
-         font-size: 22px;
-         color: #fff;
-         font-weight: 700;
-         margin-top: 0px;
-         float: left;
+			background: #FF1818;
+			padding: 10px 15px 10px 15px;
+			border-radius: 100px;
+			font-size: 22px;
+			color: #fff;
+			font-weight: 700;
+			margin-top: 0px;
     }
      .post-your-vacancy-section .post-vacancy-wraper .right {
-         position: absolute;
-         top: -35px;
-         width: 35%;
+         
     }
+	.post-vacancy-wraper {
+    width: 100%;
+    margin: 0 auto;
+}
      .post-your-vacancy-section .post-vacancy-wraper .left {
-         text-align: center;
-         padding: 50px 0px 80px 0px;
+             text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin-top: 25px;
     }
      .post-your-vacancy-section .post-vacancy-wraper .left ul .or {
          margin: 0px 5px;
@@ -341,7 +438,7 @@
      .post-your-vacancy-section {
          width: 100%;
          float: left;
-         background: rgba(79, 82, 255, 0.06);
+        
          opacity: 0.93;
          position: relative;
          margin-top: 70px;
@@ -372,11 +469,11 @@
          height: auto;
          float: left;
          width: 100%;
-         background: rgba(79, 82, 255, 0.06);
-         opacity: 0.93;
-         background-image: url(../img/banner1.png);
-         background-repeat: round;
-         margin-top: 90px;
+
+   
+        
+     
+         margin-top: 70px;
          padding-bottom: 50px;
     }
      .recruitment-row {
@@ -409,11 +506,12 @@
          border-radius: 10px;
          margin-top: 60px;
     }
-     .trending-community-section ul li {
-         display: inline-block;
-         width: 25%;
-         transition: transform .4s;
-    }
+   .trending-community-section ul li {
+    display: inline-block;
+    width: 25%;
+    transition: transform .4s;
+    margin: 0px 14px;
+}
      .instructor-section ul li{
          width: 25%;
          margin: 15px 40px;
@@ -427,8 +525,16 @@
          margin-top: 15px;
     }
      .trending-community-section ul .cu-arrow {
-         width: 70px;
+       width: 70px;
+    display: none;
     }
+	.trending-community-section .three-container {
+    width: 100%;
+}
+.trending-community-section .four-container ul li {
+    width: 20%;
+    margin: 0px 10px;
+}
      .technician-labers-section .technician-labers-part p i {
          margin-right: 10px;
          color: #FF1818;
@@ -444,45 +550,52 @@
     }
      .trading-list {
          width: 85%;
-         margin: 0 auto;
-         overflow-x: auto;
-         overflow-y: hidden;
-         white-space: nowrap;
-         margin-bottom: 15px;
+    margin: 0 auto;
+    overflow-x: auto;
+    /* overflow-y: hidden; */
+    /* white-space: nowrap; */
+    margin-bottom: 15px;
     }
      .filter-band .collapse:not(.show) {
          display: grid;
     }
      .filter-band ul {
          width: 100%;
+		 padding-bottom: 20px;
     }
      .filter-band form {
-         width: 42%;
-         margin-right: 0px;
-         padding: 0px 10px;
-         margin-bottom: 0px;
-         float: left;
-         position: relative;
-         top: -46px;
-         left: 120px 
+        width: 38%;
+    margin-right: 0px;
+    padding: 0px 10px;
+    margin-bottom: 0px;
+    float: left;
+    position: relative;
+    top: -85px;
+    left: 160px;
     }
      .filter-band ul .reset{
-         display: inline-grid;
-         width: 21%;
-         float: left;
+        display: inline-grid;
+    width: 21%;
+    float: left;
+    margin-left: 8px;
     }
      .filter-band ul .reset a {
-         background: #fff;
-         padding: 2px 20px;
-         border-radius: 100px;
-         border: 1px solid #5340ff;
-         width: 100%;
-         text-align: center;
-         display: inline-block;
-         margin-top: 5px;
-         left: 0px;
-         position: relative;
+        background: #fff;
+    padding: 7px 20px;
+    border-radius: 100px;
+    border: 1px solid #5340ff;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+    left: 0px;
+    position: relative;
     }
+	.applying-row .applying-col {
+    float: left;
+    margin: 0px 20px;
+    width: 43%;
+}
      .trending-community-section h3 {
          color: #000;
          font-size: 26px;
@@ -492,7 +605,7 @@
      .trending-community-section {
          float: left;
          width: 100%;
-         margin-top: 55px;
+         margin-top: 10px;
     }
      .what-we-do-section {
          background: #F5F5FF;
@@ -500,7 +613,7 @@
          width: 100%;
          float: left;
          padding: 45px 50px;
-         margin-top: 55px;
+         margin-top: 0px;
     }
      .what-we-do-section h3 {
          font-size: 26px;
@@ -535,29 +648,145 @@
          text-align: center;
          margin-top: 50px;
     }
-     .filter-band form {
-         width: 140px;
-         margin-right: 10px;
-    }
+     
      .trading-list ul li {
          display: inline-block;
-         margin: 0px 6px 0px 0px !important;
+        margin: 0px 6px 15px 0px !important;
     }
+	.trading-list ul {
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
      .trading-list ul li {
          display: inline-block;
          margin: 0px 6px 0px 0px;
     }
-	
-	
-	.sign-sample {
-    margin: 13% 0% 10% 0%;
+     .sign-sample {
+         margin: 13% 0% 10% 0%;
+    }
+     .sign-sample .column {
+         float: left;
+         width: 48%;
+         padding: 5px 15px;
+    }
+	.carousel-item {
+    height: auto !important;
+    width: 93%;
+    margin-left: 0px;
+    padding-left: 55px;
+}
+.login-with-social ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 8px 0px 0px;
+    width: 18%;
+}
+.infomation-right-col .info-barcode {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0px;
+}
+.infomation-right-col label a {
+    text-decoration: none;
+    color: #000;
+    font-size: 21px;
+}
+.login-language ul {
+    float: left;
+    width: 90%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+   
+}
+.search-tab {
+    position: relative;
+    width: 60%;
+}
+.sign-sample .slider-content .slider-item h2 {
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 800;
 }
 
-.sign-sample .column {
+.industries-tab ul {
     float: left;
-    width: 48%;
-    padding: 5px 15px;
+    width: 100%;
+    margin-bottom: 6px;
+    margin-top: 20px;
+    /* text-align: center; */
+    padding: 0px;
+    text-align: left !important;
 }
+.search-industries {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
+.thankyou-col {
+    text-align: center;
+    margin: 120px 0px 100px 0px;
+}
+.sign-sample .card .sign-icon-div .sign01-wht-icon {
+  
+    position: absolute;
+    top: 0px;
+    left: 90px;
+}
+
+
+.sign-sample .card .sign-icon-div .sign02-wht-icon {
+    
+    position: absolute;
+    top: 0px;
+    left: 83px;
+    width: 66px;
+}
+.sign-sample .card .sign-icon-div .sign03-wht-icon {
+
+    position: absolute;
+    top: 0px;
+    left: 93px;
+    width: 44px;
+}
+
+.sign-sample .card .sign-icon-div .sign04-wht-icon {
+
+    position: absolute;
+    top: 0px;
+    left: 93px;
+    width: 46px;
+}
+.change-language-collapse:not(.show) {
+    display:block;
+}
+.sign-sample .sign-slider {
+    width: 20%;
+    position: absolute;
+    right: 70px;
+    top: 0;
+    z-index: 999;
+}
+.sign-sample .sign-slider .navbar-nav li {
+
+    border-radius: 10px;
+}
+
+.sign-sample .sign-slider .dropdown-menu {
+    border: 0px;
+    background: #df1616;
+    color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    width: 200px;
+}
+
+
 }
 /****=========================================================================== Max-widht:767px Media Query ==============================================================================**/
  @media (max-width: 767px) {
@@ -630,7 +859,7 @@
          display: initial;
     }
      .navbar-nav{
-         margin-top:10px;
+         margin-top:0px;
          margin-bottom:10px;
     }
      .dropbtn {
@@ -709,10 +938,11 @@
          margin-top: 25px;
     }
      .whatsapp-right-part h2 {
-         color: #000;
-         font-weight: 800;
-         font-size: 23px;
-         line-height: 32px;
+			 color: #000;
+			font-weight: 800;
+			font-size: 23px;
+			line-height: 32px;
+			margin-bottom: 0px;
     }
      .whatsapp-right-part a {
          background: #e62e2d;
@@ -752,16 +982,9 @@
          margin-bottom: 30px;
     }
      .applying-row {
-         margin: 45px 0px;
+         margin: 10px 0px;
     }
-     .post-your-vacancy-section {
-         width: 100%;
-         float: left;
-         background: rgba(79, 82, 255, 0.06);
-         opacity: 0.93;
-         position: relative;
-         margin-top: 0px;
-    }
+     
      .post-your-vacancy-section .post-vacancy-wraper .left h4 {
          font-size: 23px;
          font-weight: 800;
@@ -823,37 +1046,40 @@
          margin-bottom: 25px;
     }
      .carousel-item {
-         height: auto !important;
-         width: 90%;
-         margin-left: 0px;
-         padding-left: 35px;
+        height: auto !important;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
     }
      .carousel-item button {
-         background: #fff;
-         border: 1px solid #5340FF;
-         padding: 10px 20px;
-         font-size: 14px;
-         color: #000;
-         font-weight: 500;
-         border-radius: 4px;
-         margin-right: 0px;
-         margin-bottom: 15px;
-         transition: 0.3s;
-         width: 100%;
+        background: #fff;
+ 
+        padding: 5px 10px;
+        font-size: 14px;
+        color: #000;
+        font-weight: 500;
+        border-radius: 4px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+        width: auto;
+        background: rgba(253, 73, 62, 0.2);
+        border: 1px solid #FD493E;
+    }
+    .tranding-community-group-section {
+        float: left;
+        width: 100%;
+        margin-top: 41px;
+    }
+    .trading-list {
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 0px;
     }
      .recruitment-section .recruitment-left {
          width: 100%;
     }
-     .recruitment-left-heading a {
-         background: #e62e2d;
-         color: #fff;
-         border-radius: 200px;
-         padding: 10px 35px;
-         border: 1px solid #e62e2d;
-         text-decoration: none;
-         transition: 0.3s;
-         font-size: 15px;
-    }
+     
      .recruitment-left-heading h3 {
          color: #000;
          font-size: 23px;
@@ -865,17 +1091,7 @@
          width: 100%;
          text-align: center;
     }
-     .recruitment-section {
-         height: auto;
-         float: left;
-         width: 100%;
-         background: rgba(79, 82, 255, 0.06);
-         opacity: 0.93;
-         background-image: url(../img/banner1.png);
-         background-repeat: round;
-         margin-top: 75px;
-         padding-bottom: 15px;
-    }
+     
      .recruitment-listing ul li {
          color: #fff;
          margin: 20px 0px;
@@ -952,11 +1168,26 @@
          display:inline-block;
     }
      .filter-band form {
-         width: 100%;
-         margin-right: 0px;
-         padding: 0px 10px;
-         margin-bottom: 30px;
-    }
+    width: 63%;
+    margin-right: 0px;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    /* top: 0; */
+    right: 0px;
+    bottom: 30px;
+}
+.filter-band form a {
+    position: relative;
+    top: 5px;
+    right: 0;
+    left: 28px;
+    height: 25px;
+}
+.filter-band ul {
+    background: #ffff;
+    padding-bottom: 14px;
+}
      .filter-band ul .reset a {
          background: #fff;
          padding: 7px 20px;
@@ -970,34 +1201,42 @@
          position: relative;
     }
      .filter-band form input {
-         border-radius: 100px;
-         height: 33px;
-         margin-right: 0px !important;
-    }
+    border-radius: 0px;
+    height: 35px;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    padding: 0px;
+    text-align: right;
+}
      .tranding {
-         color: #000;
-         font-size: 15px;
-         font-weight: 800;
-         width: 100% !important;
-         border-bottom: 1px solid #5a5a5a;
-         margin-bottom: 25px !important;
-         padding-bottom: 5px;
+            color: #000;
+    font-size: 15px;
+    font-weight: 800;
+    width: 100% !important;
+    border-bottom: 1px solid #5a5a5a;
+    margin-bottom: 23px !important;
+    padding-bottom: 5px;
+    height: 40px;
     }
      .trading-list ul li {
          display: inline-block;
          margin: 0px 10px 0px 0px;
-         width: 45%;
+         width:auto;
     }
      .trading-list ul li a {
-         text-decoration: none;
-         border: 1px solid #5340ff;
-         padding: 2px 7px;
-         color: #000;
-         font-size: 14px;
-         font-weight: 600;
-         width: 100%;
-         float: left;
-         display: inline-block;
+        text-decoration: none;
+       
+        padding: 2px 7px;
+        color: #000;
+        font-size: 14px;
+        font-weight: 600;
+        width: 100%;
+        float: left;
+        display: inline-block;
+        background: rgba(253, 73, 62, 0.2);
+        border: 1px solid #FD493E;
     }
      .table tbody, td, tfoot, th, thead, tr{
          font-size:14px;
@@ -1006,6 +1245,25 @@
          float: left;
          width: 100%;
          margin-top: 40px;
+    }
+    .trading-list ul {
+        list-style: none;
+        text-align: left;
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .trading-list ul li a {
+        text-decoration: none;
+        border: 1px solid #5340ff;
+        padding: 3px 12px;
+        color: #000;
+        font-size: 15px;
+        font-weight: 600;
+        background: transparent;
+        border: 1px solid #000;
+        /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+        border-radius: 50px;
     }
      .trending-community-section h3 {
          color: #000;
@@ -1024,7 +1282,7 @@
     }
      .trending-community-section ul li {
          display: inline-block;
-         width: 60%;
+         width: 85%;
          transition: transform .4s;
          margin-bottom: 25px;
     }
@@ -1040,7 +1298,7 @@
          width: 100%;
          float: left;
          padding: 45px 0px;
-         margin-top: 0px;
+         margin-top: 20px;
     }
      .what-we-do-section h3 {
          font-size: 23px;
@@ -1090,47 +1348,433 @@
      .footer .container{
          padding-bottom:0px !important;
     }
-	
-	/**=======================    ==========================**/
-	
-	.sign-sample .column {
+    /**======================= ==========================**/
+     .sign-sample .column {
+         float: left;
+         width: 100%;
+         padding: 0 10px;
+    }
+     .sign-sample {
+         margin: 30% 0% 10% 0%;
+         float: left;
+         width: 100%;
+    }
+     .sign-form-social {
+         width: 75%;
+         margin: 0 auto;
+    }
+     .sign-sample .slider-content .slider-item h2 {
+         font-size: 28px;
+         color: #000000;
+         text-align: center;
+         margin-bottom: 15px;
+         font-weight: 800;
+    }
+     .sign-sample .slider-content .slider-item .sign-para {
+         text-align: center;
+         font-size: 15px;
+         font-weight: 400;
+         color: #000000;
+    }
+     .sign-sample .card {
+         padding: 30px 0px;
+         text-align: center;
+         background: #FFFFFF;
+         border: 1px solid #ECECEC;
+         box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+         border-radius: 5px;
+         margin-bottom: 20px;
+         height: 170px;
+         width: 85%;
+    }
+	.scan-apply-arrive-part ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+.whatsapp-section {
     float: left;
     width: 100%;
-    padding: 0 10px;
+    margin-top: 15px;
 }
-.sign-sample {
-    margin: 30% 0% 10% 0%;
+	.filter-band ul .reset {
+    margin-left: 10px;
+    width: 100px;
+    float: left;
+}
+	
+.technician-labers-section {
     float: left;
     width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #F5F6FF;
+    padding: 20px 0px 0px 0px;
+}	
+
+.applying-row .applying-col {
+    float: left;
+    margin: 0px 0px;
+    width: 100%;
 }
-.sign-form-social {
-    width: 75%;
+
+
+.post-your-vacancy-section {
+    width: 100%;
+    float: left;
+    background: #fff;
+    /* opacity: 0.93; */
+    position: relative;
+    margin-top: 40px;
+}
+
+
+.tranding-community-group-section button {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 10px 5px;
+}
+.recruitment-section {
+    float: left;
+    width: 100%;
+    background: #fff;
+    margin-top: 40px;
+}
+
+.trending-community-section .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+.trending-community-section .four-container ul li {
+    width: 65%;
+    margin: 0px 30px;
+}
+
+
+.trending-community-section .four-container ul .cu-arrow3 {
+    position: absolute;
+    top: 12%;
+    /* left: 24%; */
+    right: 15%;
+    width: 17%;
+    margin: 0px;
+    display: none;
+}
+.sign-sample .slider-content {
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.sign-form-social .sign-form-left {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    border-right: 0px solid #C4C4C4;
+    padding-right: 0px;
+	    text-align: center;
+}
+.sign-form-social .sign-form-left form {
+    width: 100%;
+    /* border-right: 1px solid #C4C4C4; */
+    padding-right: 0%;
+    float: left;
+}
+.login-with-social {
+    text-align: center;
+}
+.slidizle-previous {
+    left: 0px;
+    color: red;
+}
+.slidizle-next {
+    right: 0px;
+    color: red;
+}
+.sign-sample .card .sign-icon-div .sign01-wht-icon {
+
+    position: absolute;
+    top: 0px;
+    left: 110px;
+}
+.sign-sample .card .sign-icon-div .sign02-wht-icon {
+ 
+    position: absolute;
+    top: 0px;
+    left: 103px;
+    width: 66px;
+}
+
+
+.sign-sample .card .sign-icon-div .sign03-wht-icon {
+ 
+    position: absolute;
+    top: 0px;
+    left: 113px;
+    width: 44px;
+}
+
+.sign-sample .card .sign-icon-div .sign04-wht-icon {
+  
+    position: absolute;
+    top: 0px;
+    left: 113px;
+    width: 46px;
+}
+.login-with-social ul {
+    text-align: center;
+    padding: 0px;
+}
+
+.login-with-social h4 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0px 15px 0px;
+}
+.infomation-right-col .info-barcode {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.sign-form-social .sign-form-right {
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+}
+
+.sign-up-check-col {
+    float: left;
+    display: flex;
+    width: 100%;
+    padding-left: 4%;
+}
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: #000;
+    padding: 7px 12px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+    position: relative;
+    font-weight: 500;
+    word-break: break-word;
+}
+
+
+.search-tab {
+    position: relative;
+    width: 100%;
+}
+.search-industries {
+    position: relative;
+    width: 80%;
     margin: 0 auto;
 }
-.sign-sample .slider-content .slider-item h2 {
-    font-size: 28px;
-    color: #000000;
+.login-language ul {
+    float: left;
+    width: 90%;
+    margin-bottom: 25px;
+    margin-top: 30px;
     text-align: center;
-    margin-bottom: 15px;
-    font-weight: 800;
 }
-.sign-sample .slider-content .slider-item .sign-para {
-    text-align: center;
-    font-size: 15px;
-    font-weight: 400;
-    color: #000000;
+.login-language ul li a {
+    border: 1px solid #828282;
+    border-radius: 10px;
+    color: #000;
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
 }
-.sign-sample .card {
-    padding: 30px 0px;
-    text-align: center;
-    background: #FFFFFF;
-    border: 1px solid #ECECEC;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+.industries-tab ul li a {
+    border: 1px solid #808080;
     border-radius: 5px;
-    margin-bottom: 20px;
-    height: 170px;
-    width: 85%;
+    color: #808080;
+    padding: 3px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
 }
+
+.infomation-slide .infomation-left-col ul li span {
+    float: right;
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+
+.infomation-slide .infomation-left-col ul li label {
+    float: left;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    text-align: left;
+}
+
+.infomation-slide .infomation-left-col ul li span button {
+    color: #808080;
+    border: 0px solid;
+    padding: 0px;
+    margin-left: 10px;
+    background: transparent;
+    float: right;
+}
+.login-language .signsearchbox {
+    width: 100%;
+    border-radius: 0px;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+.infomation-slide .infomation-left-col ul li .signupmemberaddress {
+    width: 100%;
+}
+
+.thankyou-col h4 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 57px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.thankyou-col p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.thankyou-col {
+    text-align: center;
+    margin: 120px 0px 60px 0px;
+}
+
+.sign-sample .sign-slider {
+    width: 80%;
+    /* position: relative; */
+    /* right: 0px; */
+    /* top: 0px; */
+    margin: 0 auto;
+}
+.sign-sample .sign-slider {
+    width: 50%;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    margin: 0 auto;
+	margin-bottom:15px;
+	
+}
+.change-language-collapse:not(.show) {
+    display:block;
+}
+.sign-sample .sign-slider .navbar-nav li {
+    
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.sign-sample .sign-slider .dropdown-menu li a {
+    color: #fff;
+    /* margin-bottom: 8px; */
+    padding: 8px 15px;
+}
+
+.sign-sample .sign-slider .dropdown-menu {
+    border: 0px;
+    background: #df1616;
+    color: #fff;
+    border-radius: 0px 0px 0px 0px;
+    width: 200px;
+}
+
+
+
+
+
+
+ }
+ 
+ 
+ 
+ @media (min-width: 320px) and (max-width: 370px) {
+	 
+	 .sign-sample .card .sign-icon-div .sign01-wht-icon {
+    position: absolute;
+    top: 0px;
+    left: 86px;
+}
+.sign-sample .card .sign-icon-div .sign02-wht-icon {
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    width: 66px;
+}
+.sign-sample .card .sign-icon-div .sign03-wht-icon {
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    width: 44px;
+}
+.sign-sample .card .sign-icon-div .sign04-wht-icon {
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    width: 46px;
+}
+ }
+ 
+ 
+ 
+ @media (min-width: 425px) and (max-width: 550px) {
+	 
+	 .sign-sample .card .sign-icon-div .sign01-wht-icon {
+    position: absolute;
+    top: 0px;
+    left: 131px;
+}
+
+.sign-sample .card .sign-icon-div .sign02-wht-icon {
+    position: absolute;
+    top: 0px;
+    left: 125px;
+    width: 66px;
+}
+.sign-sample .card .sign-icon-div .sign03-wht-icon {
+    position: absolute;
+    top: 0px;
+    left: 135px;
+    width: 44px;
+}
+
+.sign-sample .card .sign-icon-div .sign04-wht-icon {
+    position: absolute;
+    top: 0px;
+    left: 135px;
+    width: 46px;
+}
+ 
+
 
 }
  

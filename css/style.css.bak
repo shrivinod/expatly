@@ -1170,7 +1170,7 @@
 }
 
  .slidizle-next.disabled, .slidizle-previous.disabled {
-     opacity: 10;
+     opacity: 0;
      cursor: default;
 }
 
@@ -1678,7 +1678,7 @@
      float: left;
 }
  .slide-6 .next-prew{
-     display: none;
+     /* display: none; */
 }
  .nav-toggle{
      font-size: 15px;
