@@ -3269,6 +3269,7 @@ color: #FD493E;
     font-size: 15px;
     line-height: 17px;
     color: #000000;
+	outline: none;
 }
 
 .dash-tab-grid .w3-bar button:hover { 
@@ -3437,6 +3438,63 @@ color: #FD493E;
 	color:#fff;
 }
 
+.multiple_active:hover,.multiple_active:focus{
+	background: #e62e2d;
+    color: #fff;
+    border: 1px solid #e62e2d;
+}
+
+.login-language ul li .login-language-label{
+    border: 1px solid #828282;
+    border-radius: 10px;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    transition: 0.3s;
+	cursor: pointer;
+}
+/* .login-language ul li .login-language-label:hover{
+    background: #e62e2d;
+    color: #fff;
+    border: 1px solid #e62e2d;
+} */
+.login-language ul li .lng{
+  position: absolute;
+  z-index: -1;
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+.login-language ul li .lng:checked+.login-language-label{
+	background: #e62e2d;
+    color: #fff;
+    border: 1px solid #e62e2d;
+}
+.industries-tab ul li .job-sticker {
+    border: 1px solid #808080;
+    border-radius: 5px;
+    color: #808080;
+    padding: 3px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+	cursor: pointer;
+}
+.login-language ul li .sticker-focus:checked+.job-sticker {
+    background: #e62e2d;
+    color: #fff;
+    border: 1px solid #e62e2d;
+}
+.login-language ul li .sticker-focus{
+	position: absolute;
+	z-index: -1;
+	height: 0;
+	width: 0;
+	opacity: 0;
+  }
 
 
   

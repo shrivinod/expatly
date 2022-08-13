@@ -3269,6 +3269,7 @@ color: #FD493E;
     font-size: 15px;
     line-height: 17px;
     color: #000000;
+	outline: none;
 }
 
 .dash-tab-grid .w3-bar button:hover { 
@@ -3433,9 +3434,15 @@ color: #FD493E;
 }
 .tab-data  .join-wrap .join-btn button:hover{
 	background: #FD493E;
+	 border: 1px solid;
 	color:#fff;
 }
 
+.multiple_active:hover,.multiple_active:focus .multiple_active:active{
+	background: #e62e2d;
+    color: #fff;
+    border: 1px solid #e62e2d;
+}
 
 
   
