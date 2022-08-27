@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>EXPATLY</title>
+      <link rel="icon" href="img/favicon.png" type="image" sizes="16x16">
+      <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbars/">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/color.css">
+      <link rel="stylesheet" type="text/css" href="css/responsive.css">
+      <link href="css/carousel.css" rel="stylesheet">
+      <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+   </head>
+   <body class="dashboard-body">
+      <main class="dashboard-main">
+         <header class="dashboard-header">
+            <!-- <div class="bg-warning py-2">  -->
+            <!-- Some top header info  -->
+            <!-- </div> -->
+            <div class="container-fluid">
+               <div class="col-lg-12">
+                  <div class="dashboard-head-row">
+                     <div class="dashboard-logo">
+                        <a href="index.html" class="navbar-brand"><img src="img/logo.png"></a>
+                     </div>
+                     <div class="dashboard-user-right">
+                        <div class="notification">
+                           <svg viewbox="0 0 166 197">
+                              <path d="M82.8652955,196.898522 C97.8853137,196.898522 110.154225,184.733014 110.154225,169.792619 L55.4909279,169.792619 C55.4909279,184.733014 67.8452774,196.898522 82.8652955,196.898522 L82.8652955,196.898522 Z" class="notification--bellClapper"></path>
+                              <path d="M146.189736,135.093562 L146.189736,82.040478 C146.189736,52.1121695 125.723173,27.9861651 97.4598237,21.2550099 L97.4598237,14.4635396 C97.4598237,6.74321823 90.6498186,0 82.8530327,0 C75.0440643,0 68.2462416,6.74321823 68.2462416,14.4635396 L68.2462416,21.2550099 C39.9707102,27.9861651 19.5163297,52.1121695 19.5163297,82.040478 L19.5163297,135.093562 L0,154.418491 L0,164.080956 L165.706065,164.080956 L165.706065,154.418491 L146.189736,135.093562 Z" class="notification--bell"></path>
+                           </svg>
+                           <span class="notification--num">5</span>
+                        </div>
+                        <div class="user-photo">
+                           <img src="img/dashboard-user-pic.jpg">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <div class="clearfix"></div>
+         <div class="container-fluid dashboard-row agency-dashboard-row ">
+            <div class="col-lg-12 flexbox">
+               <div class="col-lg-2 agency-dash-left-menu-col flex-div">
+                  <div class="agency-dash-side-icon-menu ">
+                     <a href="#index"><i class="fa fa-home" aria-hidden="true"></i></a>
+                     <a href="#index"><i class="fa fa-sitemap" aria-hidden="true"></i></a>
+                     <a href="#index" class="active"><i class="fa fa-suitcase" aria-hidden="true"></i></a>
+                     <a href="#index"><i class="fa fa-commenting-o" aria-hidden="true"></i></a>
+                     <a href="#index"><i class="fa fa-clone" aria-hidden="true"></i></a>
+                  </div>
+               </div>
+               <div class="col-lg-10 agency-dash-right-content-col flex-div">
+                  <div class="agency-inner-menu">
+                     <a href="#index" class="active"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Jobs</a>
+                     <a href="#index"><i class="fa fa-clock-o" aria-hidden="true"></i> Applied  Status</a>
+                     <a href="#index"><i class="fa fa-cog" aria-hidden="true"></i> Setting</a>
+                     <a href="#index"><i class="fa fa-file-text-o" aria-hidden="true"></i> Document</a>
+                     <a href="#index"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Message I Queries</a>
+                  </div>
+                  <div class="position-job-wrapper">
+                     <div class="filter-belt">
+                        <label>Filter</label>
+                        <div class="dash-tab-grid2">
+                           <div class="w3-bar w3-black">
+                              <button class=" tablink w3-red1" onclick="openCity(event,'filter1')">
+                              Country</button>
+                              <button class=" tablink" onclick="openCity(event,'filter2')">
+                              Profession</button>
+                              <button class="tablink" onclick="openCity(event,'filter3')">
+                              Connection Applied</button>
+                              <button class="tablink" onclick="openCity(event,'filter4')">
+                              Industries</button>
+                              <button class="tablink" onclick="openCity(event,'filter5')">
+                              CV’S Selection</button>
+                              <button class="tablink" onclick="openCity(event,'filter6')">
+                              Agency Selection</button>
+                              <button class="tablink" onclick="openCity(event,'filter7')">
+                              Skill Agent</button>
+                              <button class="tablink" onclick="openCity(event,'filter8')">
+                              Direct Employer/Company</button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tab-data1 ">
+                        <div id="filter1" class="w3-container w3-border city">
+                           <div class="filter-data">
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                 <label class="form-check-label" for="flexCheckDefault1">
+                                 Dubai
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                 <label class="form-check-label" for="flexCheckDefault2">
+                                 Canada
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                 <label class="form-check-label" for="flexCheckDefault3">
+                                 India
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                 <label class="form-check-label" for="flexCheckDefault4">
+                                 Saudi Arabia
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+                                 <label class="form-check-label" for="flexCheckDefault5">
+                                 America
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+                                 <label class="form-check-label" for="flexCheckDefault6">
+                                 Japan
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+                                 <label class="form-check-label" for="flexCheckDefault7">
+                                 Shr Lanka
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                                 <label class="form-check-label" for="flexCheckDefault8">
+                                 Bangladesh
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
+                                 <label class="form-check-label" for="flexCheckDefault9">
+                                 Nepal
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
+                                 <label class="form-check-label" for="flexCheckDefault10">
+                                 England
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11">
+                                 <label class="form-check-label" for="flexCheckDefault11">
+                                 South Africa
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                        <div id="filter2" class="w3-container w3-border city" style="display:none">
+                           <div class="filter-data">
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11">
+                                 <label class="form-check-label" for="flexCheckDefault11">
+                                 Teacher
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault12">
+                                 <label class="form-check-label" for="flexCheckDefault12">
+                                 Engineer
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault13">
+                                 <label class="form-check-label" for="flexCheckDefault13">
+                                 Accountant
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault14">
+                                 <label class="form-check-label" for="flexCheckDefault14">
+                                 Lawyer
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15">
+                                 <label class="form-check-label" for="flexCheckDefault15">
+                                 Doctor
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault16">
+                                 <label class="form-check-label" for="flexCheckDefault16">
+                                 Software Developer
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault17">
+                                 <label class="form-check-label" for="flexCheckDefault17">
+                                 Pharmacists
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault18">
+                                 <label class="form-check-label" for="flexCheckDefault18">
+                                 Technician
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault19">
+                                 <label class="form-check-label" for="flexCheckDefault19">
+                                 Dentist
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault110">
+                                 <label class="form-check-label" for="flexCheckDefault110">
+                                 Electrician
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                        <div id="filter3" class="w3-container w3-border city" style="display:none">
+                           <a href="#index">Create New Group3</a>
+                        </div>
+                        <div id="filter4" class="w3-container w3-border city" style="display:none">
+                           <a href="#index">Create New Group4</a>
+                        </div>
+                        <div id="filter5" class="w3-container w3-border city" style="display:none">
+                           <a href="#index">Create New Group5</a>
+                        </div>
+                        <div id="filter6" class="w3-container w3-border city" style="display:none">
+                           <a href="#index">Create New Group6</a>
+                        </div>
+                        <div id="filter7" class="w3-container w3-border city" style="display:none">
+                           <a href="#index">Create New Group7</a>
+                        </div>
+                        <div id="filter8" class="w3-container w3-border city" style="display:none">
+                           <a href="#index">Create New Group8</a>
+                        </div>
+                     </div>
+                     <div class="position-row">
+                        <h3>Your Position Jobs</h3>
+                        <div class="position-grid">
+                           <div class="company-name">
+                              <label>Direct Company / Employer</label>
+                              <div class="tooltip-filter">
+                                 <div class="tooltip">
+                                    <span class="tooltip-text">
+                                    <a href="#index">India</a>
+                                    <a href="#index">Japan</a>
+                                    <a href="#index">America</a>
+                                    </span>
+                                    <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="filter-username">
+                              <div class="fil-img-div">
+                                 <img src="img/Avatar.png">
+                              </div>
+                              <div class="fill-user-content">
+                                 <h4>User Name <i class="rating__icon rating__icon--star fa fa-star"></i>
+                                    <span>4.5</span> <object>2 Days Ago</object>
+                                 </h4>
+                                 <label><i class="fa fa-check-circle" aria-hidden="true"></i>Verified</label>
+                                 <p>Designation @ Agency Name</p>
+                              </div>
+                           </div>
+                           <div class="filter-job-description">
+                              <p><span>Job Type</span><label>Carpentar</label></p>
+                              <p><span>Company Name</span><label>ZOHO co., Saudi Arabia </label></p>
+                              <p><span>Salary</span><label>Salary 35000 Inr </label></p>
+                           </div>
+                           <div class="view-job-description">
+                              <div class="view-job-des">
+                                 <a href="#index">View Job Descriptions</a>
+                                 <button type="button">Apply</button>
+                              </div>
+                              <div class="call-whstspp-copy-div">
+                                 <ul>
+                                    <li><a href="#index"><i class="fa fa-phone" aria-hidden="true"></i><span>Call</span></a>
+                                    <li>
+                                    <li><a href="#index"><i class="fa fa-whatsapp" aria-hidden="true"></i><span>Whatsapp</span></a>
+                                    <li>
+                                    <li><a href="#index"><i class="fa fa-clone" aria-hidden="true"></i><span>Copy</span></a>
+                                    <li>
+                                 </ul>
+                              </div>
+                              <div class="cv-selection">
+                                 <a href="#index">100 Applied</a>
+                                 <a href="#index">CV’s Selection</a>
+                              </div>
+                           </div>
+                        </div>
+                       <div class="position-grid">
+                           <div class="company-name">
+                              <label>Direct Company / Employer</label>
+                              <div class="tooltip-filter">
+                                 <div class="tooltip">
+                                    <span class="tooltip-text">
+                                    <a href="#index">India</a>
+                                    <a href="#index">Japan</a>
+                                    <a href="#index">America</a>
+                                    </span>
+                                    <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="filter-username">
+                              <div class="fil-img-div">
+                                 <img src="img/Avatar.png">
+                              </div>
+                              <div class="fill-user-content">
+                                 <h4>User Name <i class="rating__icon rating__icon--star fa fa-star"></i>
+                                    <span>4.5</span> <object>2 Days Ago</object>
+                                 </h4>
+                                 <label><i class="fa fa-check-circle" aria-hidden="true"></i>Verified</label>
+                                 <p>Designation @ Agency Name</p>
+                              </div>
+                           </div>
+                           <div class="filter-job-description">
+                              <p><span>Job Type</span><label>Carpentar</label></p>
+                              <p><span>Company Name</span><label>ZOHO co., Saudi Arabia </label></p>
+                              <p><span>Salary</span><label>Salary 35000 Inr </label></p>
+                           </div>
+                           <div class="view-job-description">
+                              <div class="view-job-des">
+                                 <a href="#index">View Job Descriptions</a>
+                                 <button type="button">Apply</button>
+                              </div>
+                              <div class="call-whstspp-copy-div">
+                                 <ul>
+                                    <li><a href="#index"><i class="fa fa-phone" aria-hidden="true"></i><span>Call</span></a>
+                                    <li>
+                                    <li><a href="#index"><i class="fa fa-whatsapp" aria-hidden="true"></i><span>Whatsapp</span></a>
+                                    <li>
+                                    <li><a href="#index"><i class="fa fa-clone" aria-hidden="true"></i><span>Copy</span></a>
+                                    <li>
+                                 </ul>
+                              </div>
+                              <div class="cv-selection">
+                                 <a href="#index">100 Applied</a>
+                                 <a href="#index">CV’s Selection</a>
+                              </div>
+                           </div>
+                        </div>
+                       <div class="position-grid">
+                           <div class="company-name">
+                              <label>Direct Company / Employer</label>
+                              <div class="tooltip-filter">
+                                 <div class="tooltip">
+                                    <span class="tooltip-text">
+                                    <a href="#index">India</a>
+                                    <a href="#index">Japan</a>
+                                    <a href="#index">America</a>
+                                    </span>
+                                    <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="filter-username">
+                              <div class="fil-img-div">
+                                 <img src="img/Avatar.png">
+                              </div>
+                              <div class="fill-user-content">
+                                 <h4>User Name <i class="rating__icon rating__icon--star fa fa-star"></i>
+                                    <span>4.5</span> <object>2 Days Ago</object>
+                                 </h4>
+                                 <label><i class="fa fa-check-circle" aria-hidden="true"></i>Verified</label>
+                                 <p>Designation @ Agency Name</p>
+                              </div>
+                           </div>
+                           <div class="filter-job-description">
+                              <p><span>Job Type</span><label>Carpentar</label></p>
+                              <p><span>Company Name</span><label>ZOHO co., Saudi Arabia </label></p>
+                              <p><span>Salary</span><label>Salary 35000 Inr </label></p>
+                           </div>
+                           <div class="view-job-description">
+                              <div class="view-job-des">
+                                 <a href="#index">View Job Descriptions</a>
+                                 <button type="button">Apply</button>
+                              </div>
+                              <div class="call-whstspp-copy-div">
+                                 <ul>
+                                    <li><a href="#index"><i class="fa fa-phone" aria-hidden="true"></i><span>Call</span></a>
+                                    <li>
+                                    <li><a href="#index"><i class="fa fa-whatsapp" aria-hidden="true"></i><span>Whatsapp</span></a>
+                                    <li>
+                                    <li><a href="#index"><i class="fa fa-clone" aria-hidden="true"></i><span>Copy</span></a>
+                                    <li>
+                                 </ul>
+                              </div>
+                              <div class="cv-selection">
+                                 <a href="#index">100 Applied</a>
+                                 <a href="#index">CV’s Selection</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+					 
+					  <div class="position-row">
+                        <h3>Interested Indsutries</h3>
+                        <div class="position-grid">
+                           <div class="company-name">
+                              <label>Direct Company / Employer</label>
+                              <div class="tooltip-filter">
+                                 <div class="tooltip">
+                                    <span class="tooltip-text">
+                                    <a href="#index">India</a>
+                                    <a href="#index">Japan</a>
+                                    <a href="#index">America</a>
+                                    </span>
+                                    <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="filter-username">
+                              <div class="fil-img-div">
+                                 <img src="img/Avatar.png">
+                              </div>
+                              <div class="fill-user-content">
+                                 <h4>User Name <i class="rating__icon rating__icon--star fa fa-star"></i>
+                                    <span>4.5</span> <object>2 Days Ago</object>
+                                 </h4>
+                                 <label><i class="fa fa-check-circle" aria-hidden="true"></i>Verified</label>
+                                 <p>Designation @ Agency Name</p>
+                              </div>
+                           </div>
+                           <div class="filter-job-description">
+                              <p><span>Job Type</span><label>Carpentar</label></p>
+                              <p><span>Company Name</span><label>ZOHO co., Saudi Arabia </label></p>
+                              <p><span>Salary</span><label>Salary 35000 Inr </label></p>
+                           </div>
+                           <div class="view-job-description">
+                              <div class="view-job-des">
+                                 <a href="#index">View Job Descriptions</a>
+                                 <button type="button">Apply</button>
+                              </div>
+                              <div class="call-whstspp-copy-div">
+                                 <ul>
+                                    <li><a href="#index"><i class="fa fa-phone" aria-hidden="true"></i><span>Call</span></a>
+                                    <li>
+                                    <li><a href="#index"><i class="fa fa-whatsapp" aria-hidden="true"></i><span>Whatsapp</span></a>
+                                    <li>
+                                    <li><a href="#index"><i class="fa fa-clone" aria-hidden="true"></i><span>Copy</span></a>
+                                    <li>
+                                 </ul>
+                              </div>
+                              <div class="cv-selection">
+                                 <a href="#index">100 Applied</a>
+                                 <a href="#index">CV’s Selection</a>
+                              </div>
+                           </div>
+                        </div>
+                       <div class="position-grid">
+                           <div class="company-name">
+                              <label>Direct Company / Employer</label>
+                              <div class="tooltip-filter">
+                                 <div class="tooltip">
+                                    <span class="tooltip-text">
+                                    <a href="#index">India</a>
+                                    <a href="#index">Japan</a>
+                                    <a href="#index">America</a>
+                                    </span>
+                                    <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="filter-username">
+                              <div class="fil-img-div">
+                                 <img src="img/Avatar.png">
+                              </div>
+                              <div class="fill-user-content">
+                                 <h4>User Name <i class="rating__icon rating__icon--star fa fa-star"></i>
+                                    <span>4.5</span> <object>2 Days Ago</object>
+                                 </h4>
+                                 <label><i class="fa fa-check-circle" aria-hidden="true"></i>Verified</label>
+                                 <p>Designation @ Agency Name</p>
+                              </div>
+                           </div>
+                           <div class="filter-job-description">
+                              <p><span>Job Type</span><label>Carpentar</label></p>
+                              <p><span>Company Name</span><label>ZOHO co., Saudi Arabia </label></p>
+                              <p><span>Salary</span><label>Salary 35000 Inr </label></p>
+                           </div>
+                           <div class="view-job-description">
+                              <div class="view-job-des">
+                                 <a href="#index">View Job Descriptions</a>
+                                 <button type="button">Apply</button>
+                              </div>
+                              <div class="call-whstspp-copy-div">
+                                 <ul>
+                                    <li><a href="#index"><i class="fa fa-phone" aria-hidden="true"></i><span>Call</span></a>
+                                    <li>
+                                    <li><a href="#index"><i class="fa fa-whatsapp" aria-hidden="true"></i><span>Whatsapp</span></a>
+                                    <li>
+                                    <li><a href="#index"><i class="fa fa-clone" aria-hidden="true"></i><span>Copy</span></a>
+                                    <li>
+                                 </ul>
+                              </div>
+                              <div class="cv-selection">
+                                 <a href="#index">100 Applied</a>
+                                 <a href="#index">CV’s Selection</a>
+                              </div>
+                           </div>
+                        </div>
+                       <div class="position-grid">
+                           <div class="company-name">
+                              <label>Direct Company / Employer</label>
+                              <div class="tooltip-filter">
+                                 <div class="tooltip">
+                                    <span class="tooltip-text">
+                                    <a href="#index">India</a>
+                                    <a href="#index">Japan</a>
+                                    <a href="#index">America</a>
+                                    </span>
+                                    <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="filter-username">
+                              <div class="fil-img-div">
+                                 <img src="img/Avatar.png">
+                              </div>
+                              <div class="fill-user-content">
+                                 <h4>User Name <i class="rating__icon rating__icon--star fa fa-star"></i>
+                                    <span>4.5</span> <object>2 Days Ago</object>
+                                 </h4>
+                                 <label><i class="fa fa-check-circle" aria-hidden="true"></i>Verified</label>
+                                 <p>Designation @ Agency Name</p>
+                              </div>
+                           </div>
+                           <div class="filter-job-description">
+                              <p><span>Job Type</span><label>Carpentar</label></p>
+                              <p><span>Company Name</span><label>ZOHO co., Saudi Arabia </label></p>
+                              <p><span>Salary</span><label>Salary 35000 Inr </label></p>
+                           </div>
+                           <div class="view-job-description">
+                              <div class="view-job-des">
+                                 <a href="#index">View Job Descriptions</a>
+                                 <button type="button">Apply</button>
+                              </div>
+                              <div class="call-whstspp-copy-div">
+                                 <ul>
+                                    <li><a href="#index"><i class="fa fa-phone" aria-hidden="true"></i><span>Call</span></a>
+                                    <li>
+                                    <li><a href="#index"><i class="fa fa-whatsapp" aria-hidden="true"></i><span>Whatsapp</span></a>
+                                    <li>
+                                    <li><a href="#index"><i class="fa fa-clone" aria-hidden="true"></i><span>Copy</span></a>
+                                    <li>
+                                 </ul>
+                              </div>
+                              <div class="cv-selection">
+                                 <a href="#index">100 Applied</a>
+                                 <a href="#index">CV’s Selection</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+					 
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="clearfix"></div>
+      </main>
+      <!-- End of .container -->
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script> 
+      <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+      <script>
+         function openCity(evt, cityName) {
+           var i, x, tablinks;
+           x = document.getElementsByClassName("city");
+           for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+           }
+           tablinks = document.getElementsByClassName("tablink");
+           for (i = 0; i < x.length; i++) {
+             tablinks[i].className = tablinks[i].className.replace(" w3-red1", "");
+           }
+           document.getElementById(cityName).style.display = "block";
+           evt.currentTarget.className += " w3-red1";
+         }
+      </script>
+      <script>
+         $(document).ready(function () {
+            $(document).on('click','.nav-toggle',function () {
+             
+               var collapse_content_selector = $(this).attr('href');
+               var toggle_switch = $(this);
+               $(collapse_content_selector).toggle(function () {
+                  if ($(this).css('display') == 'none') {
+                     toggle_switch.html('View More');
+                  } else {
+                     toggle_switch.html('View Less');
+                  }
+               });
+               
+            });
+         
+         });
+      </script>
+      <script src="js/wow.min.js"></script>
+      <script>
+         new WOW().init();
+         
+      </script>
+   </body>
+</html>
