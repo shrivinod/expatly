@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Niki - Premium Bootstrap Multipurpose Dashboard Admin Template">
+    <meta name="author" content="Satinder Singh">
+    <title>Vidyalankar</title>
+
+
+    <!-- Begin Global Level Styles -->
+    <link href="../../asset/css/custom.min.css" rel="stylesheet" />
+    <link href="../../asset/plugin/perfetcScrollbar/perfect-scrollbar.css" rel="stylesheet" />
+    <!-- End Global Level Styles -->
+    <!-- Optional added for code syntax highlight-->
+    <link href="../../asset/css/prism.css" rel="stylesheet" />
+
+
+
+    <!--Begin Page Level Style-->
+    <!--End Page Level Style-->
+
+     <!--Begin Page Level Style -->
+    <link href="../../asset/plugin/jQueryDataTables/datatables.css" rel="stylesheet" />
+    <!--End Page Level Style-->
+</head>
+<body>
+    <script src="../../asset/js/themesetting.js"></script>
+    <!--Begin wrapper div -->
+    <div class="wrapper">
+        <div class="Preloader-wrapper"><div class="spinner"> <div class="bounce1"></div> <div class="bounce2"></div> <div class="bounce3"></div> </div> </div>
+        <!--Begin Nav Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-content ">
+                <a class="sidebar-brand" href="dashboard.html"><span class="spnLogo">Vidyalankar</span></a>
+                <ul class="sidebar-nav">
+                    <!--<li class="sidebar-header">-- Main</li>-->
+                    <li class="sidebar-item">
+                        <a href="#menuDashboard" data-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
+                            <i data-feather="sliders" class="feather-sm"></i><span class="align-middle">Dashboard <span class="badge badge-primary">1</span></span>
+                        </a>
+                        <ul id="menuDashboard" class="sidebar-dropdown list-unstyled collapse">
+                            <li class="sidebar-item  ">
+                                <a class="sidebar-link" href="../dashboard.html">
+                                    Dashboard
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#menuauth" data-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
+                            <i data-feather="lock" class="feather-sm"></i><span class="align-middle">Authentication</span>
+                        </a>
+                        <ul id="menuauth" class="sidebar-dropdown list-unstyled collapse">
+
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../pagelogin2.html">Login </a>
+                            </li>
+
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../pageregistration2.html">Registration</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../pagechangepwd.html">Change Password </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--<li class="sidebar-header">-- Ready Apps</li>-->
+                    <li class="sidebar-item">
+                        <a href="#menuHospital" data-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
+                            <i data-feather="users" class="feather-sm"></i><span class="align-middle">Transaction</span>
+                        </a>
+                        <ul id="menuHospital" class="sidebar-dropdown list-unstyled collapse">
+
+
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Transaction/studentInfo.html">Student Information</a>
+                            </li>
+
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Transaction/ConcessionApproval.html" target="_blank">Concession Approval</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Transaction/CheckPassingDetail.html" target="_blank">Cheque Passing Details</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Transaction/ApplicationDetail.html" target="_blank">Application Details</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Transaction/PrizeDetails.html" target="_blank">Prize Details</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Transaction/TReports.html" target="_blank">Reports</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Transaction/SemesterClose.html" target="_blank">Semester Close</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Transaction/PrizeChaqueDetails.html" target="_blank">Prize Cheque Details</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Transaction/StaffInformation.html" target="_blank">Staff Informaion</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#menuLM" data-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
+                            <i data-feather="users" class="feather-sm"></i><span class="align-middle">LM</span>
+                        </a>
+                        <ul id="menuLM" class="sidebar-dropdown list-unstyled collapse">
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../LM/LectureScheduleEntry.html">Lecture Schedule Entry</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../LM/LectureAttendance.html">Lecture Attendance</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../LM/ProfessorAttendance.html">Professor Attendance</a>
+                            </li>
+
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../LM/LMReports.html">LM Reports</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../LM/ProfessorAttendance_Misce.html">Professor Attendance- Misc</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../LM/ProfessorLoad.html">Professor Load</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="sidebar-item">
+
+                        <a href="#menuCP" data-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
+                            <i data-feather="users" class="feather-sm"></i><span class="align-middle">CP</span>
+                        </a>
+                        <ul id="menuCP" class="sidebar-dropdown list-unstyled collapse">
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../CP/ProfessorAssement.html" target="_blank">Professor Assesment</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../CP/PaperCheckerCalculation.html">Paper Checker Calculation</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../CP/PaperCheckerAmount.html">Paper Checker Amount Realeased</a>
+                            </li>
+
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../CP/TestMangement/TestManagement.html">Test Management</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../CP/CPTestReport.html">Test Report</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../CP/StudentPerformanceCard.html">Student Performance Card</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../CP/LectureLessonENtry.html">Lecture Lesson Entry</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../CP/LessonReport.html">Lesson Report</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../CP/ProfessorAssement.html">Professor Assesment New</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="#menuPrint" data-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
+                            <i data-feather="users" class="feather-sm"></i><span class="align-middle">Printing</span>
+                        </a>
+                        <ul id="menuPrint" class="sidebar-dropdown list-unstyled collapse">
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Printing/JobmasterMain.html" target="_blank">Job Master</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Printing/JobDetails.html">Job Details</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Printing/jobsupplytobranch.html">Job Supply To Branch Details</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Printing/JobAcceptanceByBranch.html">Job Acceptance By Branch</a>
+                            </li>
+
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Printing/JobPayment.html">Job Payment</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Printing/ProfessorDeclarationForm.html">Professor Declaration Form</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Printing/ProfessorPayment.html">Professor Payment</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Printing/MaterialIssueToStudent.html">Material Issue To Student</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Printing/JobReceivedAtHO.html">Job Received At HO</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Printing/MaterialTransWithinBranches.html">Material Transfer Within Branches</a>
+                            </li>
+
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../printing/stockviewer.html">StockViewer</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Printing/printingInvoice.html">Printing Invoice</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Printing/PrintingPayment.html">Printing Payment</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Printing/ViewMaterialIssDetails.html">View Material Issue Details</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Printing/PrintingReport.html">Printing Reports</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="sidebar-item">
+
+                        <a href="#menuLibrary" data-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
+                            <i data-feather="users" class="feather-sm"></i><span class="align-middle">Library</span>
+                        </a>
+                        <ul id="menuLibrary" class="sidebar-dropdown list-unstyled collapse">
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Library/BookPurchaseDetails.html" target="_blank">Book Purchase Details</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Library/BookTransferAcceptance.html">Book Transfer Acceptance</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Library/BookIssue.html">Book Issue</a>
+                            </li>
+
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Library/BookReturn.html">Book Return</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Library/BookScrap.html">Book Scrap</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Library/BookStatus.html">Book Status</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Library/LibraryReport.html">Library Report</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Library/BookTransferToCentre.html">Book Transfer To Centre</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#menuInvt" data-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
+                            <i data-feather="users" class="feather-sm"></i><span class="align-middle">Inventory</span>
+                        </a>
+                        <ul id="menuInvt" class="sidebar-dropdown list-unstyled collapse">
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/ItemMaster.html">Item Master</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/PurchaseOrder.html">Purchase Order</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/Inward.html">Inward</a>
+                            </li>
+
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/StockTransfer.html">Stock Transfer</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/MaterialRequisition.html">Material Requisition</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/MaterialEssue.html">Material Issue</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/PurchaseWorkOrder.html">Purchase Work Order</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/purchaseworkcompletion.html">Purchase Work Completion</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/MaterialOutward.html">Material Outword</a>
+                            </li>
+
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/MaterialOutwordReturn.html">Material Outword Return</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/StockAdjustment.html">Stock Adjustment</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/poapprovaldetails.html">PO Approval Details</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/requisitionclosedetails.html">Requisition Close Details</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/stockviewer.html">Stock Viewer</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/SupplierInvoice.html">Supplier Invoice</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/supplierinvoicepayment.html">Supplier Invoice Payment</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/InventoryReport.html">Inventory Report</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Inventory/PaymentReliseDetails.html">Payment Release Details</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#menuEnquiry" data-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
+                            <i data-feather="users" class="feather-sm"></i><span class="align-middle">Enquiry</span>
+                        </a>
+                        <ul id="menuEnquiry" class="sidebar-dropdown list-unstyled collapse">
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Enquiry/EnquiryModel.html" target="_blank">Entry Model</a>
+                            </li>
+                            <li class="sidebar-item ">
+                                <a class="sidebar-link" href="../Enquiry/DailyWorkSheet.html" target="_blank">Daily WorkSheet</a>
+                            </li>
+                        </ul>
+                    </li>
+            </div>
+        </nav>
+        <!-- End Nav Sidebar -->
+        <!--Begin main div  -->
+        <div class="main">
+            <!-- Begin Top Navigation-->
+            <nav class="navbar navbar-expand navbar-light bg-white">
+                <a class="sidebar-toggle d-flex mr-2">
+                    <i class="hamburger align-self-center"></i>
+                </a>
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <form class="form-inline d-none d-sm-inline-block">
+                               
+                            </form>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-icon" href="#" id="alertsDropdown" data-toggle="dropdown">
+                                <div class="position-relative">
+                                    <i data-feather="bell-off" class="align-middle text-primary"></i>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right py-0" aria-labelledby="alertsDropdown">
+                                <div class="dropdown-menu-header">13 New Notifications</div>
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item">
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col-2">
+                                                <i data-feather="alert-circle" class="text-danger"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="text-dark">Patch Update Status</div>
+                                                <div class="text-muted small mt-1">
+                                                    NginX proxy certificate patch
+                                                    update.
+                                                </div>
+                                                <div class="text-muted small mt-1">just now</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col-2">
+                                                <i data-feather="bell" class="text-warning"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="text-dark">Lorem ipsum</div>
+                                                <div class="text-muted small mt-1">
+                                                    Dolor sit amet, consectetur adipiscing elit
+                                                    hendrerit et.
+                                                </div>
+                                                <div class="text-muted small mt-1">24h ago</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col-2">
+                                                <i data-feather="home" class="text-primary"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="text-dark">Home loan request raised</div>
+                                                <div class="text-muted small mt-1">5d ago</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col-2">
+                                                <i data-feather="user-plus" class="text-success"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="text-dark">Agend Onboarding</div>
+                                                <div class="text-muted small mt-1">Rob Marc, sr dev recently tagged under you</div>
+                                                <div class="text-muted small mt-1">7d ago</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="dropdown-menu-footer">
+                                    <a href="#" class="text-muted">Show all notifications</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-toggle="dropdown">
+                                <i data-feather="settings" class="align-middle"></i>
+                            </a>
+
+                            <a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-toggle="dropdown">
+                                <img src="../../img/user/profilepix-thumb.jpg" class="avatar img-fluid rounded-circle mr-1" alt="Andrea Franzly">
+                                <span class="text-dark">Andrea Franzly</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="../pageuserprofile.html">
+                                    <i class="feathersmall" data-feather="user"></i>
+                                    Profile
+                                </a>
+
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="../pageaccountsetting.html">
+                                    <i class="feathersmall" data-feather="settings"></i> Settings &amp; Privacy
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="feathersmall" data-feather="help-circle"></i>Help
+                                </a>
+                                <a class="dropdown-item" href="../pagelogin2.html">
+                                    <i class="feathersmall" data-feather="log-out"></i>Sign out
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--End Top navigation -->
+            <!-- Begin main content div -->
+            <main class="content">
+
+
+                <div class="container-fluid p-0">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+
+
+
+
+
+
+
+
+                                    <div class="table-responsive">
+                                      <table style="width:100%">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+                                    </div><br>
+
+                                    <div class="row">
+
+                                        <div class="col-md-8">
+                                            <a class="btn btn-primary text-white btn-sm">Export To Excel</a>
+                                            <a class="btn btn-success text-white btn-sm">Exit</a>
+                                        </div>
+                                    </div>
+
+
+
+                                </div> <!-- end card-body-->
+                            </div> <!-- end card-->
+                        </div> <!-- end columns-->
+                    </div><!-- end row-->
+
+
+                </div> <!-- end container-fluid -->
+
+
+            </main>
+            <!-- End main content div -->
+        </div>
+        <!--End main div -->
+    </div>
+    <!--End wrapper div -->
+    <!-- Begin Global Level Script -->
+    <script src="../../asset/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../../asset/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../asset/js/feather.min.js"></script>
+    <script src="../../asset/plugin/perfetcScrollbar/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../../asset/js/custom.js"></script>
+    <!-- End Global Level Script -->
+    <!-- Optional added for code syntax highlight-->
+    <script src="../../asset/js/prism.js"></script>
+
+
+    <!-- begin page level script -->
+    <!-- end page level script -->
+    <!--Begin Page Level scripts-->
+    <script src="../../asset/plugin/jQueryDataTables/datatables.js"></script>
+    <script src="../../asset/js/init-tabledatatable.js"></script>
+    <!--END Page Level script for DataTable-->
+</body>
+</html>
